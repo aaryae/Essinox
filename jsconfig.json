@@ -6,7 +6,8 @@
       "@pages/*": ["./src/pages/*"],
       "@assets/*": ["./src/assets/*"],
       "@hooks/*": ["./src/hooks/*"],
-      "@ui/*": ["./src/ui/*"]
+      "@ui/*": ["./src/ui/*"],
+      "@config/*": ["./src/config/*"]
     },
     "module": "ESNext",
     "moduleResolution": "bundler",
