@@ -18,13 +18,13 @@ export default function Navbar() {
       {/* Overlay */}
       {isSidebarOpen && (
         <div
-          className="fixed inset-0 bg-black/50 z-40 md:hidden"
+          className="fixed inset-0 bg-black/50 z-40 md:hidden "
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
 
       <nav className="fixed top-0 w-full bg-white z-50 shadow-sm">
-        <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
           
           <Logo />
 
@@ -71,10 +71,10 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <Sidebar isOpen={isSidebarOpen} activePath={pathname} />
+      <Sidebar isSidebarOpen={isSidebarOpen} activePath={pathname} />
 
       {/* Spacer */}
-      <div className="h-16" />
+      <div className="h-22" />
     </>
   )
 }

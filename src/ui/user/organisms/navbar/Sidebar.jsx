@@ -2,18 +2,19 @@ import { navItems } from "@/config/constant/navItems.data"
 import { ArrowUpRightIcon, X } from "lucide-react"
 import { Link } from "react-router-dom"
 
-export default function Sidebar({ isOpen, activePath }) {
+export default function Sidebar({ isSidebarOpen, activePath }) {
   return (
     <div
       className={`fixed top-0 right-0 h-full w-72 bg-white z-50 shadow-2xl
         transform transition-all duration-300 ease-out
-        ${isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"}
+        ${isSidebarOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"}
       `}
     >
       {/* Close */}
       <button
         className="absolute top-4 right-4"
         aria-label="Close menu"
+        isSidebarOpen={()=>{!isSidebarOpen}}
       >
         <X className="w-6 h-6 text-gray-700" />
       </button>
@@ -32,7 +33,7 @@ export default function Sidebar({ isOpen, activePath }) {
                     ? "bg-blue-50 text-blue-900"
                     : "text-gray-700 hover:bg-gray-100 hover:text-blue-900"
                   }
-                `}bo
+                `}
               >
                 {label}
               </Link>
