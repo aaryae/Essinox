@@ -6,7 +6,7 @@ const Hero = () => {
       {/* bg-[#1f5187] */}
 
       {/* Desktop: Full width background image - CROPPED */}
-      <div className='hidden sm:block absolute inset-0 w-full  '>
+      <div className='hidden md:block absolute inset-0 w-full  '>
         <img src={image.heroVideo} alt='Hero background' className='hidden sm:block 1'  />
       </div>
 
