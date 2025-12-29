@@ -5,7 +5,6 @@ import logo from "@assets/image/logo/mainLogo.png"
 import heroVideoFile from "@assets/video/heroBg.gif"
 
 
-
 export const image = {
     logo,
     groupLogo1,

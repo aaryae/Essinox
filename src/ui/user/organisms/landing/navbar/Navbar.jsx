@@ -74,7 +74,7 @@ export default function Navbar() {
       <Sidebar isSidebarOpen={isSidebarOpen} activePath={pathname} />
 
       {/* Spacer */}
-      <div className="h-22" />
+      <div className="h-44" />
     </>
   )
 }
