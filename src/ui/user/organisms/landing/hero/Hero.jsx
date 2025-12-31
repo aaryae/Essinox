@@ -2,23 +2,24 @@ import { image } from '@/config/constant/image'
 
 const Hero = () => {
   return (
-    <div className='relative w-full h-full '>
+    <div className=' '>
       {/* bg-[#1f5187] */}
 
       {/* Desktop: Full width background image - CROPPED */}
-      <div className='hidden md:block absolute inset-0 w-full  '>
-        <img src={image.heroVideo} alt='Hero background' className='hidden sm:block 1'  />
+      <div className='hidden sm:block  inset-0 w-full  '>
+        <img src={image.heroVideo} alt='Hero background' className='hidden sm:block 1' />
       </div>
 
-      {/* 
-        <div className=' relative flex flex-col h-full w-1/2 max-w-lg  p-5'>
-           <p className="text-sm text-blue-200 mb-4 uppercase tracking-wider">LOREM IPSUM</p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
-              Stylish & Comfortable Eyewear for Everyone
-            </h1>
-            <p className="text-blue-100 text-base lg:text-lg mb-8">
-              Discover the perfect frames that complement your unique style and personality
-            </p>
+      {/* <div className=' flex flex-col h-full w-1/2  top-0'>
+        <p className='text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider'>LOREM IPSUM</p>
+        <h1 className='text-5xl font-light text-white mb-4 leading-tight'>
+          Stylish & Comfortable <br />
+          <span className='text-6xl font-medium '> Eyewear for Everyone</span>
+        </h1>
+        <p className='text-blue-100 text-[0.9rem]  mb-8'>
+          Discover the perfect frames that complement your unique style and personality
+        </p>
+        <div className='flex gap-5'>
           <button className='px-8 py-3 border-2 border-white text-white rounded hover:bg-white hover:text-[#1f5187] transition-colors'>
             Explore Now
           </button>
@@ -27,6 +28,7 @@ const Hero = () => {
             <span>→</span>
           </button>
         </div>
+      </div> */}
 
       {/* Mobile: Image below content - ALSO CROPPED */}
       {/* <div className="sm:hidden w-full overflow-hidden">
