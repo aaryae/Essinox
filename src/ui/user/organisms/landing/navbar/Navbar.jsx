@@ -23,7 +23,7 @@ export default function Navbar() {
       )}
 
       <nav className="fixed top-0 w-full bg-white z-50 shadow-sm">
-        <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+        <div className="max-w-7xl mx-auto flex items-center justify-between  py-3">
           <Logo />
 
           <div className="hidden md:flex gap-8">

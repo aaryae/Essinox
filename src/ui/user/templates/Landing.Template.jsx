@@ -9,7 +9,6 @@ const LandingTemplate = () => {
       <main className="pt-20  flex-1">
       <Outlet />
       </main>
-
       <Footer />
     </div>
   )

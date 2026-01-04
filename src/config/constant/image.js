@@ -4,10 +4,14 @@ import designerCollection3 from '@assets/image/landing/designerCollection3.png'
 import essinoxGlass from '@assets/image/landing/essinoxGlass.png'
 import glass from '@assets/image/landing/glass.png'
 
+import wideDesignerCollection3 from "@assets/image/image.png"
+
 import groupLogo1 from '@assets/image/logo/groupLogo1.png'
 import groupLogo2 from '@assets/image/logo/groupLogo2.png'
 import logo from '@assets/image/logo/mainLogo.png'
 import heroVideoFile from '@assets/video/heroBg.gif'
+
+
 
 import styleGlass from '@assets/image/landing/styleGlass.png'
 
@@ -27,6 +31,7 @@ export const image = {
   designerCollection,
   designerCollection2,
   designerCollection3,
+  wideDesignerCollection3,
 
   styleGlass,
 
