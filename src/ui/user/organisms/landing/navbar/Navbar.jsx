@@ -69,7 +69,7 @@ export default function Navbar() {
         activePath={pathname}
       />
 
-      <div className="h-44" />
+     
     </>
   )
 }
