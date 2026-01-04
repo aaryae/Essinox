@@ -2,7 +2,7 @@ import { FAQItem } from "@/ui/user/organisms/landing/FAQ/FAQItem";
 
 export function FAQSection() {
   return (
-    <section className='mx-auto max-w-3xl px-4 py-16'>
+    <section className='mx-auto max-w-7xl px-4 py-16'>
       <h2 className='text-center text-3xl font-semibold text-gray-900'>FAQ</h2>
       <p className='mt-2 text-center text-gray-500'>
         We're committed to providing exceptional eyewear and service that exceeds your expectations

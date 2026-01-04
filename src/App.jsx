@@ -1,4 +1,5 @@
 import LandingPage from '@/ui/user/pages/LandingPage'
+import LensesPage from '@/ui/user/pages/LensesPage'
 import LandingTemplate from '@/ui/user/templates/Landing.Template'
 import { Toaster } from 'react-hot-toast'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -9,7 +10,8 @@ const router = createBrowserRouter([
 
     element:<LandingTemplate/>,
     children: [
-      { index: true, element:<LandingPage/> }
+      { index: true, element:<LandingPage/> },
+      {path:"/lenses", element:<LensesPage/>}
     ]
 
   }
