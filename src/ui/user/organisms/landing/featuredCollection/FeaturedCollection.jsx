@@ -10,7 +10,7 @@ const FeaturedCollection = () => {
           We're committed to providing exceptional eyewear and service that exceeds your expectations
         </p>
       </div>
-      <div className='flex'>
+      <div className='flex max-w-7xl mx-auto gap-7 justify-between'>
         <ProductCard image={image.essinoxGlass} title={'glasses'} />
         <ProductCard image={image.essinoxGlass} title={'glasses'} />
         <ProductCard image={image.essinoxGlass} title={'glasses'} />

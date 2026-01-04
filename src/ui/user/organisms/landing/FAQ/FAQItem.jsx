@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 export function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false)
 

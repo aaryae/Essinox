@@ -1,3 +1,5 @@
+import { FAQItem } from "@/ui/user/organisms/landing/FAQ/FAQItem";
+
 export function FAQSection() {
   return (
     <section className='mx-auto max-w-3xl px-4 py-16'>
