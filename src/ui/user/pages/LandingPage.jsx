@@ -4,6 +4,7 @@ import { FAQSection } from "@/ui/user/organisms/landing/FAQ/FAQSection"
 import FeaturedCollection from "@/ui/user/organisms/landing/featuredCollection/FeaturedCollection"
 import Hero from "@/ui/user/organisms/landing/hero/Hero"
 import Navbar from "@/ui/user/organisms/landing/navbar/Navbar"
+import FeaturedCollection from "../organisms/landing/featuredCollection/FeaturedCollection"
 
 const LandingPage = () => {
   return (
@@ -11,9 +12,8 @@ const LandingPage = () => {
      <Navbar/>
      <Hero/>
      <ChooseUs/>
-     <ChooseUsCards/>
-     <FeaturedCollection/>
-     <FAQSection/>
+      <ChooseUsCards />
+      <FeaturedCollection/>
     </>
   )
 }
