@@ -13,7 +13,7 @@ import groupLogo2 from '@assets/image/logo/groupLogo2.png'
 import logo from '@assets/image/logo/mainLogo.png'
 import heroVideoFile from '@assets/video/heroBg.gif'
 
-
+import aboutVideo from "@assets/video/about.gif"
 
 import styleGlass from '@assets/image/landing/styleGlass.png'
 
@@ -42,4 +42,6 @@ export const image = {
   cloth,
 
   footerGlass,
+  
+  aboutVideo
 }

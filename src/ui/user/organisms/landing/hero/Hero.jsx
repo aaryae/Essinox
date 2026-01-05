@@ -10,7 +10,9 @@ const Hero = () => {
           alt='Hero background'
           className='hidden md:hidden lg:block w-full h-[70vh] sm:h-[85vh] object-cover'
         />
-        {/* Overlay */} <div className='inset-0 bg-black/30' /> {/* Content */}
+        {/* Overlay */}
+        <div className='inset-0 bg-black/30' />
+        {/* Content */}
         <div className='absolute inset-0 flex justify-center items-center'>
           <div className='absolute mx-auto px-6 sm:px-12 lg:px-20 w-full'>
             <div className='flex flex-col max-w-xl'>

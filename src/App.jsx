@@ -1,3 +1,4 @@
+import AboutPage from '@/ui/user/pages/AboutPage'
 import LandingPage from '@/ui/user/pages/LandingPage'
 import LensesPage from '@/ui/user/pages/LensesPage'
 import LandingTemplate from '@/ui/user/templates/Landing.Template'
@@ -11,7 +12,8 @@ const router = createBrowserRouter([
     element:<LandingTemplate/>,
     children: [
       { index: true, element:<LandingPage/> },
-      {path:"/lenses", element:<LensesPage/>}
+      {path:"/lenses", element:<LensesPage/>},
+      {path:"/about",element:<AboutPage/>}
     ]
 
   }
