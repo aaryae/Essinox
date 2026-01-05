@@ -5,6 +5,8 @@ import essinoxGlass from '@assets/image/landing/essinoxGlass.png'
 import glass from '@assets/image/landing/glass.png'
 
 import wideDesignerCollection3 from "@assets/image/image.png"
+import centerImg from '@assets/image/landing/centerImg.png'
+import responsiveImg from '@assets/image/landing/responsiveGif.png'
 
 import groupLogo1 from '@assets/image/logo/groupLogo1.png'
 import groupLogo2 from '@assets/image/logo/groupLogo2.png'
@@ -23,6 +25,8 @@ export const image = {
   logo,
   groupLogo1,
   groupLogo2,
+  centerImg,
+  responsiveImg,
 
   heroVideo: heroVideoFile,
   glass,
