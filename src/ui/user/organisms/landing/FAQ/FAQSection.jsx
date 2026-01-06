@@ -1,4 +1,4 @@
-import { FAQItem } from "@/ui/user/organisms/landing/FAQ/FAQItem";
+import { FAQItem } from '@/ui/user/organisms/landing/FAQ/FAQItem'
 
 export function FAQSection() {
   return (

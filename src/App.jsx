@@ -10,22 +10,21 @@ const router = createBrowserRouter([
   {
     path: '/',
 
-    element:<LandingTemplate/>,
+    element: <LandingTemplate />,
     children: [
-      { index: true, element:<LandingPage/> },
-      {path:"/lenses", element:<LensesPage/>},
-      {path:"/about",element:<AboutPage/>},
-      {path:"/contact",element:<ContactPage/>}
-    ]
-
-  }
+      { index: true, element: <LandingPage /> },
+      { path: '/lenses', element: <LensesPage /> },
+      { path: '/about', element: <AboutPage /> },
+      { path: '/contact', element: <ContactPage /> },
+    ],
+  },
 ])
 
 function App() {
   return (
     <>
       <RouterProvider router={router} />
-      
+
       <Toaster position='bottom-right' reverseOrder={false} />
     </>
   )

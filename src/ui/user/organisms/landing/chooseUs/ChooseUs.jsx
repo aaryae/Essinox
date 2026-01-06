@@ -36,11 +36,11 @@ const ChooseUs = () => {
           />
 
           {/* Left text - Quality Materials */}
-          <div className='absolute left-[15%] top-1/2 -translate-y-1/2  max-w-[35%] sm:max-w-[30%] tracking-[0.012rem]'>
-            <h2 className='text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2 '>
+          <div className='absolute left-[15%] max-[632px]:left-[13%] max-[480px]:left-[5%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%] tracking-[0.012rem]'>
+            <h2 className='text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2'>
               Quality Materials
             </h2>
-            <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-72 '>
+            <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-72'>
               Premium materials and craftsmanship in every frame we offer.
             </p>
           </div>
@@ -48,9 +48,7 @@ const ChooseUs = () => {
           {/* Right text - Wide Frame Selection */}
           <div
             className='
-                absolute right-[16%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
-
-                xl:right-[16%]
+                absolute right-[15%] max-[632px]:right-[10%] max-[480px]:right-[10%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
 
                 max-xl:left-1/2
                 max-xl:translate-x-[25%]

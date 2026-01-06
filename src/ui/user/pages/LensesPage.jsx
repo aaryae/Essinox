@@ -17,7 +17,7 @@ const LensesPage = () => {
         alt='Stylish eyewear'
         className='object-cover scale-x-[-1] brightness-[0.75]  '
       />{' '}
-      <FAQSection/>
+      <FAQSection />
     </>
   )
 }

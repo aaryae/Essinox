@@ -1,4 +1,4 @@
-import { image } from "@/config/constant/image"
+import { image } from '@/config/constant/image'
 
 const FramesSpecial = () => {
   return (

@@ -1,4 +1,4 @@
-import { Mail, MessageSquare, Phone, User } from 'lucide-react';
+import { Mail, MessageSquare, Phone, User } from 'lucide-react'
 
 const ContactForm = () => {
   return (
@@ -86,8 +86,8 @@ const ContactForm = () => {
           <p className='text-sm font-medium text-gray-800 mb-3'>Services</p>
           <div className='space-y-3 text-sm text-gray-700'>
             <label className='flex items-center gap-3 cursor-pointer group'>
-              <input 
-                type='checkbox' 
+              <input
+                type='checkbox'
                 className='
                   w-5 h-5 rounded border  border-gray-600
                   text-[#3271b1]
@@ -99,8 +99,8 @@ const ContactForm = () => {
               <span className='group-hover:text-gray-900 transition-colors'>General Inquiry</span>
             </label>
             <label className='flex items-center gap-3 cursor-pointer group'>
-              <input 
-                type='checkbox' 
+              <input
+                type='checkbox'
                 className='
                   w-5 h-5 rounded border  border-gray-600
                   text-[#3271b1] 
@@ -114,12 +114,10 @@ const ContactForm = () => {
           </div>
         </div>
 
-
-
         {/* Privacy */}
         <label className='flex items-start gap-3 text-sm text-gray-700 cursor-pointer group  border-t pt-4 mt-10 border-gray-400 w-fit'>
-          <input 
-            type='checkbox' 
+          <input
+            type='checkbox'
             className='
               mt-0.5 w-5 h-5 rounded border  border-gray-600
               text-[#3271b1]
@@ -130,8 +128,10 @@ const ContactForm = () => {
           />
           <span className='leading-relaxed font-bold my-auto'>
             Please agree to our
-            <span className='text-[#3271b1] hover:text-[#3271b1] cursor-pointer ml-1 font-medium'>Privacy Policy</span>
-            {' '}to contact us.
+            <span className='text-[#3271b1] hover:text-[#3271b1] cursor-pointer ml-1 font-medium'>
+              Privacy Policy
+            </span>{' '}
+            to contact us.
           </span>
         </label>
 
@@ -152,7 +152,7 @@ const ContactForm = () => {
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm

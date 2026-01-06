@@ -4,10 +4,10 @@ import { Outlet } from 'react-router-dom'
 
 const LandingTemplate = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className='flex flex-col min-h-screen'>
       <Navbar />
-      <main className="pt-20  flex-1">
-      <Outlet />
+      <main className='pt-20  flex-1'>
+        <Outlet />
       </main>
       <Footer />
     </div>

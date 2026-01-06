@@ -83,7 +83,7 @@ const Hero = () => {
               borderBottomRightRadius: '150px',
               borderTopLeftRadius: '0',
               borderBottomLeftRadius: '0',
-              left:"-39px"
+              left: '-39px',
             }}
           >
             <img

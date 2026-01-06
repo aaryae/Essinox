@@ -1,13 +1,13 @@
-import { navItems } from "@/config/constant/navItems.data"
-import Logo from "@/ui/user/atoms/Logo"
-import { ArrowUpRightIcon, Menu } from "lucide-react"
-import { useEffect, useState } from "react"
-import { Link, useLocation } from "react-router-dom"
-import Sidebar from "./Sidebar"
+import { navItems } from '@/config/constant/navItems.data'
+import Logo from '@/ui/user/atoms/Logo'
+import { ArrowUpRightIcon, Menu } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
+import Sidebar from './Sidebar'
 
 export default function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
-  const { pathname } = useLocation()   // only used to detect active route
+  const { pathname } = useLocation() // only used to detect active route
 
   useEffect(() => {
     setIsSidebarOpen(false)
@@ -16,17 +16,14 @@ export default function Navbar() {
   return (
     <>
       {isSidebarOpen && (
-        <div
-          className="fixed inset-0 bg-black/50 z-40 md:hidden"
-          onClick={() => setIsSidebarOpen(false)}
-        />
+        <div className='fixed inset-0 bg-black/50 z-40 md:hidden' onClick={() => setIsSidebarOpen(false)} />
       )}
 
-      <nav className="fixed top-0 w-full bg-white z-50 shadow-sm">
-        <div className="max-w-7xl mx-auto flex items-center justify-between  py-3">
+      <nav className='fixed top-0 w-full bg-white z-50 shadow-sm'>
+        <div className='max-w-7xl mx-auto flex items-center justify-between  py-3'>
           <Logo />
 
-          <div className="hidden md:flex gap-8">
+          <div className='hidden md:flex gap-8'>
             {navItems.map(({ label, href }) => {
               const isActive = pathname === href
               return (
@@ -34,7 +31,7 @@ export default function Navbar() {
                   key={label}
                   to={href}
                   className={`font-medium transition-colors ${
-                    isActive ? "text-[#3271B1]" : "text-gray-700 hover:text-blue-900"
+                    isActive ? 'text-[#3271B1]' : 'text-gray-700 hover:text-blue-900'
                   }`}
                 >
                   {label}
@@ -43,33 +40,20 @@ export default function Navbar() {
             })}
           </div>
 
-          <div className="hidden md:flex">
-            <Link
-              to="/dealer"
-              className="flex items-center gap-2 font-medium text-gray-700 hover:text-blue-900 group"
-            >
+          <div className='hidden md:flex'>
+            <Link to='/dealer' className='flex items-center gap-2 font-medium text-gray-700 hover:text-blue-900 group'>
               Become an Essinox Dealer
-              <ArrowUpRightIcon className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              <ArrowUpRightIcon className='w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform' />
             </Link>
           </div>
 
-          <button
-            className="md:hidden"
-            aria-label="Open menu"
-            onClick={() => setIsSidebarOpen(true)}
-          >
-            <Menu className="w-6 h-6 text-gray-700" />
+          <button className='md:hidden' aria-label='Open menu' onClick={() => setIsSidebarOpen(true)}>
+            <Menu className='w-6 h-6 text-gray-700' />
           </button>
         </div>
       </nav>
 
-      <Sidebar
-        isSidebarOpen={isSidebarOpen}
-        setIsSidebarOpen={setIsSidebarOpen}
-        activePath={pathname}
-      />
-
-     
+      <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} activePath={pathname} />
     </>
   )
 }

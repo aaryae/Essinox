@@ -5,15 +5,10 @@ export function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="rounded-xl border border-gray-200 bg-gray-50 shadow-sm transition">
-      <button
-        onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between px-6 py-5 text-left"
-      >
+    <div className='rounded-xl border border-gray-200 bg-gray-50 shadow-sm transition'>
+      <button onClick={() => setOpen(!open)} className='flex w-full items-center justify-between px-6 py-5 text-left'>
         {/* Question */}
-        <span className="text-[15px] font-medium text-gray-900">
-          {question}
-        </span>
+        <span className='text-[15px] font-medium text-gray-900'>{question}</span>
 
         {/* Chevron */}
         <span
@@ -21,7 +16,7 @@ export function FAQItem({ question, answer }) {
             ${open ? 'rotate-180' : ''}
           `}
         >
-         <ChevronDown />
+          <ChevronDown />
         </span>
       </button>
 
@@ -31,9 +26,7 @@ export function FAQItem({ question, answer }) {
           ${open ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}
         `}
       >
-        <p className="px-6 pb-5 text-sm leading-relaxed text-gray-600">
-          {answer}
-        </p>
+        <p className='px-6 pb-5 text-sm leading-relaxed text-gray-600'>{answer}</p>
       </div>
     </div>
   )

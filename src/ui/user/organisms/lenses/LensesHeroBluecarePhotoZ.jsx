@@ -2,7 +2,7 @@ import { image } from '@/config/constant/image'
 
 const LensesBlueCarePhotoZ = () => {
   return (
-    <section className='w-full bg-white flex justify-center px-4 md:px-0 pt-8 md:pt-14 py-7'>
+    <section className='w-full bg-white flex  justify-center px-4 md:px-0 pt-8 md:pt-14 py-7'>
       <div className='w-full max-w-350 grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-10'>
         {/* Left Text */}
         <div>
@@ -15,7 +15,7 @@ const LensesBlueCarePhotoZ = () => {
         </div>
 
         {/* Right Images */}
-        <div className='flex justify-center md:justify-end gap-4'>
+        <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-4'>
           <img
             src={image.essinoxGlass}
             alt='Photo-Z collection'

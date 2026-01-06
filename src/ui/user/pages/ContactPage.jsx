@@ -5,7 +5,7 @@ const ContactPage = () => {
   return (
     <>
       <ContactHero />
-      <ContactSection/>
+      <ContactSection />
     </>
   )
 }

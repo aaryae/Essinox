@@ -29,7 +29,7 @@ const LensesProgressivePhotoZ = () => {
           </div>
 
           {/* Right Images */}
-          <div className='flex justify-center md:justify-end gap-4'>
+          <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-4'>
             <img
               src={image.essinoxGlass}
               alt='Progressive lens'

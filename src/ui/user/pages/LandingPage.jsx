@@ -15,8 +15,8 @@ const LandingPage = () => {
       <ChooseUsCards />
       <FeaturedCollection />
       <ExploreLenses />
-      <BecomeDealer/>
-      <img src={image.cloth} alt="cloth" className='w-full object-fit h-full' />
+      <BecomeDealer />
+      <img src={image.cloth} alt='cloth' className='w-full object-fit h-full' />
       <FAQSection />
     </>
   )

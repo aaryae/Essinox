@@ -5,7 +5,7 @@ const LensesWideProgressive = () => {
     <section className='w-full bg-[#f8f8f8] flex justify-center px-4 md:px-0 py-10 md:py-16'>
       <div className='w-full max-w-350 grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-12'>
         {/* Left Images */}
-        <div className='flex justify-center md:justify-start gap-4'>
+        <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-start gap-4'>
           <img src={image.essinoxGlass} alt='Wide progressive' className='w-full h-86.25 object-cover rounded-[14px]' />
           <img
             src={image.designerCollection3}

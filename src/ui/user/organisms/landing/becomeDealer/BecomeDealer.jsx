@@ -24,12 +24,12 @@ const BecomeDealer = () => {
           <p>access to our premium lens catalog</p>
         </div>
 
-           <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff49] border border-white rounded-2xl'>
+        <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff49] border border-white rounded-2xl'>
           <h1>premium products</h1>
           <p>access to our premium lens catalog</p>
         </div>
 
-           <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff49] border border-white rounded-2xl'>
+        <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff49] border border-white rounded-2xl'>
           <h1>premium products</h1>
           <p>access to our premium lens catalog</p>
         </div>

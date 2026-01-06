@@ -15,10 +15,13 @@ const LensesHero = () => {
 
         {/* Large Hero Image */}
         <div className='w-full flex justify-center  '>
-          <img src={image.wideDesignerCollection3} alt='Essinox Glass' className='w-full hidden md:block rounded-[18px]' />
+          <img
+            src={image.wideDesignerCollection3}
+            alt='Essinox Glass'
+            className='w-full hidden md:block rounded-[18px]'
+          />
         </div>
 
-    
         <div className='flex flex-wrap gap-4 mt-2 justify-center'>
           {/* Image */}
           {/* Bottom Grid */}
