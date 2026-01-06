@@ -11,7 +11,7 @@ const ChooseUsCards = () => {
         </p>
       </div>
 
-      <div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  sm:gap-6 place-items-center'>
+      <div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  sm:gap-6 gap-2 place-items-center p-2'>
         <Card
           title={'Designer Collection'}
           description={
