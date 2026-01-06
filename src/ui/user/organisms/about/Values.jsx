@@ -9,26 +9,26 @@ const Values = () => {
   ];
 
   return (
-    <section className="w-full bg-[#f9fcff] flex justify-center px-4 md:px-0 py-12 md:py-16">
-      <div className="w-full max-w-[1100px] text-center">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-2">
+    <section className="w-full bg-[#f0f3f7] flex justify-center px-4 md:px-0 py-12 md:py-16">
+      <div className="w-full max-w-325 text-center">
+        <h2 className="text-xl md:text-4xl font-medium text-gray-900 mb-4">
           What we stand for
         </h2>
-        <p className="text-[10px] md:text-xs text-gray-600 mb-8 max-w-[60%] mx-auto">
+        <p className="text-sm  text-gray-700 mb-8 max-w-[60%] mx-auto tracking-wide">
           Our values guide everything we do, from lens selection to customer care.
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 md:gap-10 py-6">
           {values.map((v, i) => (
-            <div key={i} className="flex flex-col items-center">
-              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden mb-3 shadow-sm">
+            <div key={i} className="flex flex-col items-center py-5">
+              <div className="w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden mb-3 shadow-sm">
                 <img
-                  src={image.blank}
+                  src={image.essinoxGlass}
                   alt={v.title}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-sm md:text-base font-semibold text-gray-900">
+              <h3 className="text-sm  font-medium text-gray-900 tracking-wide">
                 {v.title}
               </h3>
               <p className="text-[10px] md:text-xs text-gray-600 mt-1 max-w-[85%] leading-relaxed">
