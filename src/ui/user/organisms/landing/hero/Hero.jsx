@@ -16,11 +16,16 @@ const Hero = () => {
         <div className='absolute inset-0 flex justify-center items-center'>
           <div className='absolute mx-auto px-6 sm:px-12 lg:px-20 w-full'>
             <div className='flex flex-col max-w-xl'>
-              <p className='text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider'>Lorem Ipsum</p>
-              <h1 className='text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-4 leading-tight'>
-                Stylish & Comfortable <br /> <span className='font-medium'>Eyewear for Everyone</span>
+              <p className='text-[0.9rem] sm:text-[0.85rem] md:text-[0.9rem] lg:text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider'>
+                Lorem Ipsum
+              </p>
+              <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white mb-4 leading-tight'>
+                Stylish & Comfortable <br />{' '}
+                <span className='font-medium flex flex-col'>
+                  Eyewear for <span> Everyone</span>
+                </span>
               </h1>
-              <p className='text-blue-100 text-[0.9rem] mb-8'>
+              <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] lg:text-[0.9rem] text-blue-100 mb-8'>
                 Discover the perfect frames that complement your unique style and personality
               </p>
               <div className='flex flex-wrap gap-5'>
@@ -34,22 +39,24 @@ const Hero = () => {
             </div>
           </div>
           <div className=''>
-            <img src={image.centerImg} alt='' />
+            <img src={image.centerImg} alt='' className='' />
           </div>
         </div>
       </div>
 
       {/* ================= MOBILE ================= */}
-      <div className='block lg:hidden relative bg-[#1f5187]'>
-        <div className='px-6 py-5'>
-          <p className='text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider'>Lorem Ipsum</p>
+      <div className='block lg:hidden relative bg-[#1f5187]  '>
+        <div className='flex flex-col items-center justify-center  px-6 py-5'>
+          <p className='text-[0.9rem] sm:text-[0.85rem] md:text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider'>
+            Lorem Ipsum
+          </p>
 
-          <h1 className='text-4xl font-light text-white mb-4 leading-tight'>
+          <h1 className='text-2xl sm:text-3xl md:text-4xl font-light text-white mb-4 leading-tight'>
             Stylish & Comfortable <br />
-            <span className='font-medium'>Eyewear for Everyone</span>
+            <span className='font-medium text-2xl sm:text-3xl md:text-4xl'>Eyewear for Everyone</span>
           </h1>
 
-          <p className='text-blue-100 text-[0.9rem] mb-6'>
+          <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] text-blue-100 mb-6'>
             Discover the perfect frames that complement your unique style and personality
           </p>
 
@@ -64,10 +71,29 @@ const Hero = () => {
         {/* Mobile image section */}
         <div className='relative w-full'>
           {/* Background responsive image */}
-          <img src={image.responsiveImg} alt='' className='w-93.75 h-73.5 object-cover' />
+          <img src={image.responsiveVideo} alt='' className='w-full  h-full object-cover' />
 
-          {/* Center image inside */}
-          <img src={image.centerImg} alt='' className='absolute left-1 top-1/2 -translate-y-1/2 w-18' />
+          {/* Center image on the left side */}
+          <div
+            className='absolute top-1/2 left-0 -translate-y-1/2 bg-[#173f6a] flex justify-center items-center'
+            style={{
+              width: '99px', // width of the half-circle
+              height: '150px', // height same as width for a perfect circle
+              borderTopRightRadius: '150px',
+              borderBottomRightRadius: '150px',
+              borderTopLeftRadius: '0',
+              borderBottomLeftRadius: '0',
+            }}
+          >
+            <img
+              src={image.centerImg}
+              alt=''
+              className='w-19'
+              style={{
+                marginLeft: '5px', // adjust for positioning
+              }}
+            />
+          </div>
         </div>
       </div>
     </section>
