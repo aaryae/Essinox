@@ -2,8 +2,8 @@ import { image } from '@/config/constant/image'
 
 const Hero = () => {
   return (
-    <section className='relative w-full overflow-hidden'>
-      <div className='hidden md:hidden lg:block'>
+    <section className='relative w-full overflow-hidden '>
+      <div className='hidden md:hidden lg:block '>
         {/* Background Image / GIF */}
         <img
           src={image.heroVideo}
@@ -45,7 +45,7 @@ const Hero = () => {
       </div>
 
       {/* ================= MOBILE ================= */}
-      <div className='block lg:hidden relative bg-[#1f5187]  '>
+      <div className='block lg:hidden relative bg-[#173f6a] pl-7  '>
         <div className='flex flex-col items-center justify-center  px-6 py-5'>
           <p className='text-[0.9rem] sm:text-[0.85rem] md:text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider'>
             Lorem Ipsum
@@ -75,14 +75,15 @@ const Hero = () => {
 
           {/* Center image on the left side */}
           <div
-            className='absolute top-1/2 left-0 -translate-y-1/2 bg-[#173f6a] flex justify-center items-center'
+            className='absolute top-1/2 left-0 -translate-y-1/2 bg-[#173f6a] flex justify-center items-center '
             style={{
               width: '99px', // width of the half-circle
-              height: '150px', // height same as width for a perfect circle
+              height: '99px', // height same as width for a perfect circle
               borderTopRightRadius: '150px',
               borderBottomRightRadius: '150px',
               borderTopLeftRadius: '0',
               borderBottomLeftRadius: '0',
+              left:"-39px"
             }}
           >
             <img

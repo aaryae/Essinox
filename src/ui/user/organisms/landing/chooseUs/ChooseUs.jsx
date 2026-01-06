@@ -48,14 +48,14 @@ const ChooseUs = () => {
           {/* Right text - Wide Frame Selection */}
           <div
             className='
-    absolute right-[16%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
+                absolute right-[16%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
 
-    xl:right-[16%]
+                xl:right-[16%]
 
-    max-xl:left-1/2
-    max-xl:translate-x-[25%]
-    max-xl:right-auto
-  '
+                max-xl:left-1/2
+                max-xl:translate-x-[25%]
+                max-xl:right-auto
+              '
           >
             <h2 className='text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2'>
               Wide Frame Selection
