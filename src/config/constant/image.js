@@ -21,6 +21,9 @@ import cloth from "@assets/image/landing/cloth.png"
 
 import footerGlass from '@assets/image/footer/footerGlass.png'
 
+import map from "@assets/image/map.png"
+import contact from "@assets/video/contact.gif"
+
 export const image = {
   logo,
   groupLogo1,
@@ -43,5 +46,8 @@ export const image = {
 
   footerGlass,
   
-  aboutVideo
+  aboutVideo,
+
+  contact,
+  map
 }
