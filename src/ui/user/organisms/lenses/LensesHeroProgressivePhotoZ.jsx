@@ -7,14 +7,14 @@ const LensesProgressivePhotoZ = () => {
         {/* Top Title */}
         <div className='text-center mb-16'>
           <h2 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide'>Essinox Progressive Photo-Z</h2>
-          <p className='text-sm text-gray-600 mt-2 max-w-[60%] mx-auto'>
+          <p className='text-sm text-gray-600 mt-2 md:max-w-[60%] mx-auto text-justify'>
             Each lens is meticulously crafted with the finest materials, designed to provide the perfect night’s sleep
             you deserve.
           </p>
         </div>
 
         {/* Bottom Content */}
-        <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-12'>
+        <div className='flex flex-wrap items-center gap-6 '>
           {/* Left Text */}
           <div>
             <h3 className='text-base md:text-xl font-semibold text-gray-900'>Why Progressive Photo-Z?</h3>

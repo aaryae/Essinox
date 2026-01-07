@@ -41,13 +41,13 @@ export default function Navbar() {
           </div>
 
           <div className='hidden md:flex'>
-            <Link to='/dealer' className='flex items-center gap-2 font-medium text-gray-700 hover:text-blue-900 group'>
+            <Link to='/contact' className='flex items-center gap-2 font-medium text-gray-700 hover:text-blue-900 group'>
               Become an Essinox Dealer
               <ArrowUpRightIcon className='w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform' />
             </Link>
           </div>
 
-          <button className='md:hidden' aria-label='Open menu' onClick={() => setIsSidebarOpen(true)}>
+          <button className='md:hidden px-4' aria-label='Open menu' onClick={() => setIsSidebarOpen(true)}>
             <Menu className='w-6 h-6 text-gray-700' />
           </button>
         </div>

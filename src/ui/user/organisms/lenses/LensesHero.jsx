@@ -2,12 +2,12 @@ import { image } from '@/config/constant/image'
 
 const LensesHero = () => {
   return (
-    <section className='w-full bg-[#f4f6f9] flex justify-center py-5 px-3 pb-20'>
+    <section className='w-full bg-[#f4f6f9] flex justify-center py-5 px-4 pb-20'>
       <div className='w-full max-w-350'>
         {/* Title Block */}
         <div className='text-center pt-6 md:pt-10 pb-5 md:pb-7'>
           <h1 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide'>Essinox Bluecare</h1>
-          <p className='text-sm text-gray-600 mt md:mt-2 py-1 max-w-[70%] mx-auto'>
+          <p className='text-sm text-gray-600  md:mt-2 py-1 md:max-w-[70%] mx-auto'>
             Each sleeping hat is meticulously crafted with the finest materials, designed to provide the perfect night's
             sleep you deserve.
           </p>
