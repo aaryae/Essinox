@@ -35,7 +35,7 @@ export default function Sidebar({ isSidebarOpen, setIsSidebarOpen, activePath })
 
         <div className='mt-10 border-t pt-6'>
           <Link
-            to='/dealer'
+            to='/contact'
             onClick={() => setIsSidebarOpen(false)}
             className='flex items-center justify-between rounded-lg bg-blue-900 text-white px-4 py-3 hover:bg-blue-800 transition'
           >

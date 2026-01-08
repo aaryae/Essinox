@@ -7,11 +7,14 @@ import Sidebar from './Sidebar'
 
 export default function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
-  const { pathname } = useLocation() // only used to detect active route
+  const { pathname } = useLocation()
 
   useEffect(() => {
     setIsSidebarOpen(false)
+        window.scrollTo(0, 0)  
   }, [pathname])
+
+  
 
   return (
     <>

@@ -3,7 +3,7 @@ import { image } from '@/config/constant/image'
 const LensesProgressivePhotoZ = () => {
   return (
     <section className='w-full bg-white flex justify-center px-4 md:px-0 py-12 md:py-18'>
-      <div className='w-full max-w-350'>
+      <div className='w-full max-w-350 px-4'>
         {/* Top Title */}
         <div className='text-center mb-16'>
           <h2 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide'>Essinox Progressive Photo-Z</h2>
@@ -14,9 +14,9 @@ const LensesProgressivePhotoZ = () => {
         </div>
 
         {/* Bottom Content */}
-        <div className='flex flex-wrap items-center gap-6 '>
+        <div className='flex flex-wrap md:justify-center justify-start gap-6  '>
           {/* Left Text */}
-          <div>
+          <div className='max-w-xl '>
             <h3 className='text-base md:text-xl font-semibold text-gray-900'>Why Progressive Photo-Z?</h3>
             <p className='text-xs md:text-sm text-gray-600 mt-2 leading-relaxed text-justify'>
               We believe that eyewear is an extension of your personality. That’s why we curate our collections with
@@ -29,7 +29,7 @@ const LensesProgressivePhotoZ = () => {
           </div>
 
           {/* Right Images */}
-          <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-4'>
+          <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-4 '>
             <img
               src={image.essinoxGlass}
               alt='Progressive lens'
