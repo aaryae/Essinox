@@ -38,10 +38,10 @@ const ChooseUs = () => {
           {/* Left text - Quality Materials */}
           <div className='absolute left-[15%] max-[632px]:left-[13%] max-[480px]:left-[5%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%] tracking-[0.012rem]'>
             <h2 className='text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2'>
-              Quality Materials
+              Optical Performance
             </h2>
             <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-72'>
-              Premium materials and craftsmanship in every frame we offer.
+              crafted using advanced technology to deliver distortion-free vision in every condition.
             </p>
           </div>
 
@@ -49,17 +49,16 @@ const ChooseUs = () => {
           <div
             className='
                 absolute right-[15%] max-[632px]:right-[10%] max-[480px]:right-[10%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
-
-                max-xl:left-1/2
+                max-xl:left-[55%]
                 max-xl:translate-x-[25%]
-                max-xl:right-auto
+               
               '
           >
             <h2 className='text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2'>
-              Wide Frame Selection
+              Perfectly Designed
             </h2>
-            <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-72'>
-              Hundreds of styles from classic to contemporary designs.
+            <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-60'>
+              Essinox lenses ensure superior comfort, reduced eye strain, and long-lasting durability.
             </p>
           </div>
         </div>

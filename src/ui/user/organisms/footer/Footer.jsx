@@ -1,6 +1,7 @@
 import { image } from '@/config/constant/image'
 import Logo from '@/ui/user/atoms/Logo'
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react'
+import { ArrowRight, Facebook, Instagram, Mail, MapPin, Phone } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -8,12 +9,12 @@ export default function Footer() {
       {/* Top CTA Section */}
       <div className='border-b border-white/20'>
         <div className='max-w-7xl mx-auto px-4 py-16 text-center'>
-          <h2 className='text-3xl md:text-4xl font-medium'>Expert Team, Personal Service</h2>
+          <h2 className='text-3xl md:text-4xl font-medium'>Your Vision, Our Expertise </h2>
 
           <p className='mt-4 text-sm text-white/80 max-w-2xl mx-auto leading-relaxed'>
-            Our trained opticians and style consultants are here to help you find frames that perfectly match your
-            prescription, lifestyle, and personal aesthetic. We take the time to understand your needs and preferences,
-            ensuring you leave with eyewear you'll love to wear every day.
+            We believe eyewear should be as unique as you are. Our team takes the time to understand your daily life and
+            personal taste, guiding you toward the perfect frames. From clinical precision to personal style, we’re here
+            to help you love what you wear.
           </p>
 
           <a
@@ -38,8 +39,8 @@ export default function Footer() {
 
             {/* Description */}
             <p className='text-sm leading-relaxed text-white/80'>
-              Our trained opticians and style consultants help you discover frames that complement your prescription,
-              lifestyle, and personal style — ensuring comfort and confidence every day.
+              Discover frames that perfectly balance your vision needs with your personal style, guided by our expert
+              opticians.
             </p>
 
             {/* Divider */}
@@ -47,25 +48,52 @@ export default function Footer() {
 
             {/* Contact Info */}
             <ul className='space-y-2 text-sm'>
-              <li className='group flex items-center gap-4'>
+              {/* Phone */}
+              <li className='group flex items-center gap-4 '>
                 <span className='flex h-9 w-9 items-center justify-center rounded-full bg-white/10'>
                   <Phone className='w-4 h-4 text-white/80' />
                 </span>
-                <span className='text-white/90 group-hover:text-white transition'>Contact Us</span>
+
+                <Link className='text-white/90 group-hover:text-white transition'>015914844</Link>
+
+                <Link className='ml-auto w-fit flex ' to='/'>
+                  Home <ArrowRight size={20} />{' '}
+                </Link>
               </li>
 
+              {/* Email */}
               <li className='group flex items-center gap-4'>
                 <span className='flex h-9 w-9 items-center justify-center rounded-full bg-white/10'>
                   <Mail className='w-4 h-4 text-white/80' />
                 </span>
-                <span className='text-white/90 group-hover:text-white transition'>Email Address</span>
+
+                <Link
+                  to='https://mail.google.com/mail/u/0/#inbox?compose=VpCqJZMhcXnmZqzdNzXKNmRJlztGzvHmPvRvrDnXWlvNrWZphslPLBGjRCGnTRcVhSpZTJv'
+                  className='text-white/90 group-hover:text-white transition'
+                >
+                  info@essinoxlens.com
+                </Link>
+                <Link className='ml-auto w-fit flex ' to='/about'>
+                  About <ArrowRight size={20} />{' '}
+                </Link>
               </li>
 
+              {/* Location */}
               <li className='group flex items-center gap-4'>
                 <span className='flex h-9 w-9 items-center justify-center rounded-full bg-white/10'>
                   <MapPin className='w-4 h-4 text-white/80' />
                 </span>
-                <span className='text-white/90 group-hover:text-white transition'>Location Address</span>
+
+                <Link
+                  to='https://www.google.com/maps/place/Tripureshwor,+Kathmandu+44600/@27.6951562,85.3146119,2098m/data=!3m2!1e3!4b1!4m10!1m2!2m1!1sessinox+tripureshowr!3m6!1s0x39eb19ac7c7c0e35:0x5d153025334f3c1e!8m2!3d27.6949964!4d85.3149142!15sChRlc3Npbm94IHRyaXB1cmVzaHdvcpIBDHN1YmxvY2FsaXR5MeABAA!16s%2Fg%2F1w6_m742?entry=ttu&g_ep=EgoyMDI2MDEwNi4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D'
+                  target='_blank'
+                  className='text-white/90 group-hover:text-white transition'
+                >
+                  Tripureshwor, Kathmandu, Nepal
+                </Link>
+                <Link className='ml-auto w-fit flex ' to='/contact'>
+                  Contact <ArrowRight size={20} />{' '}
+                </Link>
               </li>
             </ul>
 
@@ -74,32 +102,23 @@ export default function Footer() {
               <p className='text-sm font-medium text-white/90 mb-3'>Follow us</p>
 
               <div className='flex gap-4'>
-                <a
-                  href='#'
+                <Link
+                  to=' https://www.facebook.com/people/Essinox/61583761424872/'
                   className='group flex h-10 w-10 items-center justify-center rounded-full bg-white/10
     hover:bg-white hover:text-[#173f6a] transition-all duration-300'
                   aria-label='Facebook'
                 >
                   <Facebook className='w-5 h-5' />
-                </a>
+                </Link>
 
-                <a
-                  href='#'
+                <Link
+                  to='https://www.instagram.com/essinox.lenses/#'
                   className='group flex h-10 w-10 items-center justify-center rounded-full bg-white/10
     hover:bg-white hover:text-[#173f6a] transition-all duration-300'
                   aria-label='LinkedIn'
                 >
-                  <Linkedin className='w-5 h-5' />
-                </a>
-
-                <a
-                  href='#'
-                  className='group flex h-10 w-10 items-center justify-center rounded-full bg-white/10
-    hover:bg-white hover:text-[#173f6a] transition-all duration-300'
-                  aria-label='Instagram'
-                >
                   <Instagram className='w-5 h-5' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

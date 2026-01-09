@@ -13,50 +13,38 @@ const ChooseUsCards = () => {
 
       <div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  sm:gap-6 gap-2 place-items-center p-2'>
         <Card
-          title={'Designer Collection'}
-          description={
-            'Designer Collection Designer Collection Designer Collection Designer Collection Designer Collection '
-          }
+          title={'Premium Lens Coating'}
+          description={'Advanced high-quality coatings designed for modern, fast-paced lifestyles. '}
           image={image.essinoxGlass}
           className='w-[320px]'
         />
         <Card
-          title={'Designer Collection'}
-          description={
-            'Designer Collection Designer Collection Designer Collection Designer Collection Designer Collection '
-          }
+          title={'Digital Screen Friendly'}
+          description={'Specially developed for digital device users to reduce eye strain and blue light exposure.'}
           image={image.essinoxGlass}
           className='w-[320px]'
         />
         <Card
-          title={'Designer Collection'}
-          description={
-            'Designer Collection Designer Collection Designer Collection Designer Collection Designer Collection '
-          }
+          title={'Enhanced Daily Comfort'}
+          description={'Lightweight lenses that provide balanced, comfortable vision for long hours.'}
           image={image.essinoxGlass}
           className='w-[320px]'
         />
         <Card
-          title={'Designer Collection'}
-          description={
-            'Designer Collection Designer Collection Designer Collection Designer Collection Designer Collection '
-          }
+          title={'Long-Lasting Durability'}
+          description={'Scratch-resistant and protective coatings ensure extended lens performance.'}
           image={image.essinoxGlass}
           className='w-[320px]'
         />
         <Card
-          title={'Designer Collection'}
-          description={
-            'Designer Collection Designer Collection Designer Collection Designer Collection Designer Collection '
-          }
+          title={'Crystal-Clear Vision'}
+          description={'Precision optics deliver sharp clarity in all lighting conditions.'}
           image={image.essinoxGlass}
           className='w-[320px]'
         />
         <Card
-          title={'Designer Collection'}
-          description={
-            'Designer Collection Designer Collection Designer Collection Designer Collection Designer Collection '
-          }
+          title={'UV Protection & Eye Safety'}
+          description={'Protects your eyes from harmful UV rays for safe and healthy vision.'}
           image={image.essinoxGlass}
           className='w-[320px]'
         />

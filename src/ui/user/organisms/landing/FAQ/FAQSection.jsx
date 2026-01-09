@@ -10,24 +10,24 @@ export function FAQSection() {
 
       <div className='mt-8 space-y-4'>
         <FAQItem
-          question='What coatings are available?'
-          answer='We offer anti-reflective, scratch-resistant, UV-protection, and blue-light filtering coatings.'
+          question='What makes Essinox lenses different?'
+          answer='Essinox lenses are made with advanced optical technology and premium coatings to deliver clear vision, comfort, and durability.'
         />
         <FAQItem
-          question='What are the benefits of each coating?'
-          answer='Each coating improves comfort, durability, and eye protection depending on your needs.'
+          question='Are Essinox lenses suitable for digital screen use?'
+          answer='Yes, Essinox lenses help reduce eye strain and blue light exposure caused by prolonged digital device use.'
         />
         <FAQItem
-          question='How long do the coatings last?'
-          answer='With proper care, our coatings can last several years.'
+          question='Do Essinox lenses provide UV protection?'
+          answer='All Essinox lenses offer effective UV protection to help safeguard your eyes from harmful ultraviolet rays.'
         />
         <FAQItem
-          question='Can coatings be applied to any surface?'
-          answer='Most coatings can be applied to prescription and non-prescription lenses.'
+          question='Are Essinox lenses suitable for daily wear?'
+          answer='Essinox lenses are lightweight and comfortable, making them ideal for long hours of everyday use.'
         />
         <FAQItem
-          question='What is the application process for coatings?'
-          answer='Coatings are applied during lens manufacturing using advanced technology.'
+          question='Can I get Essinox lenses with different coatings?'
+          answer='Yes. Essinox lenses are available with various coatings, including anti-reflective, blue filter, UV protection, and hydrophobic coatings.'
         />
       </div>
     </section>

@@ -20,14 +20,13 @@ export default function ExploreLenses() {
         <div className='text-center max-w-3xl text-white'>
           {/* Heading */}
           <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight'>
-            Stylish & Comfortable
-            <br />
-            <span className='font-normal'>Eyewear for Everyone</span>
+            Premium Eyewear for Everyday Comfort
           </h1>
 
           {/* Subtext */}
           <p className='mt-4 text-sm sm:text-base text-white/80 max-w-xl mx-auto'>
-            Discover the perfect frames that complement your unique style and personality
+            Essinox lenses go through a series of strict quality checks before reaching you — ensuring reliability,
+            durability, and visual excellence.{' '}
           </p>
 
           {/* Buttons */}
@@ -44,7 +43,7 @@ export default function ExploreLenses() {
 
             {/* Secondary Button */}
             <Link
-              to='/dealer'
+              to='/contact'
               className='flex items-center gap-2 px-6 py-2.5 rounded-md
               bg-white text-gray-900 text-sm font-medium
               hover:bg-gray-100 transition'
