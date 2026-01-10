@@ -5,7 +5,7 @@ const MapContact = () => {
   return (
     <div className='space-y-10 '>
       {/* MAP */}
-      <div className='w-full h-[380px] rounded-2xl overflow-hidden shadow-md'>
+      <div className='w-full h-95 rounded-2xl overflow-hidden shadow-md'>
         <img src={image.map} alt='Map' className='w-full h-full object-cover' />
       </div>
 
