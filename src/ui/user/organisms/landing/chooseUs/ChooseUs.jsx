@@ -48,7 +48,7 @@ const ChooseUs = () => {
           {/* Right text - Wide Frame Selection */}
           <div
             className='
-                absolute right-[15%] max-[632px]:right-[10%] max-[480px]:right-[10%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
+                absolute right-[20%] max-[632px]:right-[10%] max-[480px]:right-[10%] top-1/2 -translate-y-1/2 max-w-[35%] sm:max-w-[30%]
                 max-xl:left-[55%]
                 max-xl:translate-x-[25%]
                
@@ -57,7 +57,7 @@ const ChooseUs = () => {
             <h2 className='text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-gray-900 mb-1 sm:mb-2'>
               Perfectly Designed
             </h2>
-            <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-60'>
+            <p className='text-[10px] sm:text-xs md:text-sm  text-gray-600 leading-relaxed max-w-40 md:max-w-60'>
               Essinox lenses ensure superior comfort, reduced eye strain, and long-lasting durability.
             </p>
           </div>
