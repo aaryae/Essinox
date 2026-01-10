@@ -7,43 +7,39 @@ const FramesSpecial = () => {
         {/* Left: Text Content */}
         <div className='space-y-6'>
           <h2 className='text-3xl md:text-4xl font-medium text-gray-900'>
-            Why Our <span className='text-[#387bbf]'>Frames Are Special</span>
+            Why Our <span className='text-[#387bbf]'>Why Our Lenses Are Special</span>
           </h2>
 
           <p className='text-gray-600 leading-relaxed'>
-            Every frame in our collection is chosen with meticulous attention to detail. We partner with renowned
-            manufacturers and emerging designers who share our commitment to excellence.
+            Essinox lenses are crafted to meet the visual demands of modern life while maintaining comfort and clarity.
           </p>
 
           <ul className='space-y-4'>
             <li className='flex items-start gap-3'>
               <div>
-                <strong className='text-gray-900'>• Premium Materials:</strong>
-                <span className='text-gray-600'>
-                  {' '}
-                  Lightweight titanium, durable acetate, and hypoallergenic components
-                </span>
+                <strong className='text-gray-900'>• Advanced Coatings:</strong>
+                <span className='text-gray-600'> Reduce glare, resist scratches, and improve visual clarity </span>
               </div>
             </li>
 
             <li className='flex items-start gap-3'>
               <div>
-                <strong className='text-gray-900'>• Expert Craftsmanship:</strong>
-                <span className='text-gray-600'> Precision engineering for lasting comfort and durability</span>
+                <strong className='text-gray-900'>• Digital-Friendly Design:</strong>
+                <span className='text-gray-600'>Helps minimize eye fatigue from prolonged screen exposure</span>
               </div>
             </li>
 
             <li className='flex items-start gap-3'>
               <div>
-                <strong className='text-gray-900'>• Timeless Design:</strong>
-                <span className='text-gray-600'> Styles that transcend trends while embracing innovation</span>
+                <strong className='text-gray-900'>• Lightweight & Comfortable:</strong>
+                <span className='text-gray-600'> Designed for long hours of effortless wear</span>
               </div>
             </li>
 
             <li className='flex items-start gap-3'>
               <div>
-                <strong className='text-gray-900'>• Perfect Fit:</strong>
-                <span className='text-gray-600'> Range of sizes and adjustable features for all-day comfort</span>
+                <strong className='text-gray-900'>• Precision Manufacturing :</strong>
+                <span className='text-gray-600'>Ensures accurate vision and dependable performance</span>
               </div>
             </li>
           </ul>

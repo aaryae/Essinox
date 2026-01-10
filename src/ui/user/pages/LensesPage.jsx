@@ -9,9 +9,9 @@ const LensesPage = () => {
   return (
     <>
       <LensesHero />
-      <LensesProgressivePhotoZ />
-      <LensesWideProgressive />
       <LensesBlueCarePhotoZ />
+      <LensesWideProgressive />
+      <LensesProgressivePhotoZ />
       <img
         src={image.styleGlass}
         alt='Stylish eyewear'

@@ -4,8 +4,7 @@ const ContactForm = () => {
   return (
     <div className='max-w-2xl w-full'>
       <h2 className='text-2xl font-semibold text-gray-900'>Fill out this form</h2>
-      <p className='text-sm text-gray-500 mt-1 py-1'>Lorem Ipsum</p>
-
+ j5e6
       <div className='mt-8 space-y-6'>
         {/* Full Name */}
         <div>

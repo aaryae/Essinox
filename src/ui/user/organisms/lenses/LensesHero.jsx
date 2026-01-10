@@ -6,10 +6,10 @@ const LensesHero = () => {
       <div className='w-full max-w-350'>
         {/* Title Block */}
         <div className='text-center pt-6 md:pt-10 pb-5 md:pb-7'>
-          <h1 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide'>Essinox Bluecare</h1>
-          <p className='text-sm text-gray-600  md:mt-2 py-1 md:max-w-[70%] mx-auto'>
-            Each sleeping hat is meticulously crafted with the finest materials, designed to provide the perfect night's
-            sleep you deserve.
+          <h1 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide w-fit'>Essinox Bluecare</h1>
+          <p className='text-sm text-gray-600  md:mt-2 py-1 md:max-w-[70%] text-start'>
+            Designed for digital lifestyles, Bluecare lenses reduce eye strain and provide comfortable, clear vision
+            throughout the day.
           </p>
         </div>
 
@@ -49,9 +49,9 @@ const LensesHero = () => {
           <div className='max-w-2xl pl-0 md:pl-10 my-auto '>
             <h2 className='text-lg md:text-2xl font-medium text-gray-900'>Why Bluecare?</h2>
             <p className='text-[11px] md:text-sm text-gray-600 mt-2 md:mt-3 leading-relaxed text-justify'>
-              Founded with a vision to make quality eyewear accessible to everyone, Essinox has been serving the
-              community for over a decade. What started as a small optical shop has grown into a destination for those
-              who appreciate the perfect blend of style, comfort, and quality.
+              Prolonged use of digital devices can cause eye fatigue, dryness, and discomfort. Essinox Bluecare lenses
+              feature advanced blue light filtering technology that reduces harmful blue light exposure while preserving
+              natural color perception. Ideal for office work, online learning, and everyday screen use.
             </p>
           </div>
         </div>

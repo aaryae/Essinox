@@ -1,13 +1,7 @@
 import { image } from '@/config/constant/image'
+import { values } from '@/config/constant/values.data'
 
 const Values = () => {
-  const values = [
-    { title: 'Passion For Design', desc: "We believe eyewear is more than fashion, it's self-expression." },
-    { title: 'Quality Materials', desc: 'Every frame is crafted for durability, clarity and comfort.' },
-    { title: 'Customer Satisfaction', desc: 'Your confidence matters, we’re here to support your style.' },
-    { title: 'Perfect Fit Promise', desc: 'Precision-built frames that feel as good as they look.' },
-  ]
-
   return (
     <section className='w-full bg-[#f0f3f7] flex justify-center px-4 md:px-0 py-12 md:py-16'>
       <div className='w-full max-w-325 text-center'>

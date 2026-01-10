@@ -19,11 +19,11 @@ const MapContact = () => {
         <div className='mt-4 space-y-3 text-sm text-gray-700'>
           <div className='flex items-center gap-3'>
             <Phone size={18} style={{ color: '#387bbf' }} />
-            <span className='font-medium'>021 12345</span>
+            <span className='font-medium'>015914844</span>
           </div>
           <div className='flex items-center gap-3'>
             <Smartphone size={18} style={{ color: '#387bbf' }} />
-            <span className='font-medium'>+977 9898989898</span>
+            <span className='font-medium'>+977 9851107617</span>
           </div>
         </div>
       </div>
@@ -33,11 +33,11 @@ const MapContact = () => {
         <h3 className='text-3xl py-2 font-semibold text-gray-900'>
           Visit <span className='text-[#3271b1]'>Us</span>
         </h3>
-        <p className='text-sm text-gray-500 mt-1'>Call Our Team Monday-Friday 9am to 5pm</p>
+        <p className='text-sm text-gray-500 mt-1'>Call our team Sunday - Friday 9am to 7pm</p>
 
         <div className='mt-4 flex items-center gap-3 text-sm text-gray-700'>
           <MapPin size={18} style={{ color: '#387bbf' }} />
-          <span className='font-medium'>Kathmandu, Nepal</span>
+          <span className='font-medium'>Tripureshwor, Kathmandu, Nepal</span>
         </div>
       </div>
     </div>

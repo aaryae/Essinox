@@ -18,12 +18,7 @@ const LensesWideProgressive = () => {
         <div className='max-w-xl'>
           <h2 className='text-lg md:text-2xl font-bold text-gray-900'>Essinox Wide Progressive</h2>
           <p className='text-xs md:text-sm text-gray-600 mt-2 leading-relaxed text-justify'>
-            Founded with a vision to make quality eyewear accessible to everyone, Essinox has been serving the community
-            for over a decade. We believe that eyewear is an extension of your personality.
-          </p>
-          <p className='text-xs md:text-sm text-gray-600 mt-3 leading-relaxed text-justify'>
-            Our commitment goes beyond style and design — we are dedicated to providing expert guidance, personalized
-            service, and ongoing support to ensure your frames not only look great but feel great too.
+            Provides smooth, natural vision across near, intermediate, and far distances with a wider viewing area.
           </p>
         </div>
       </div>

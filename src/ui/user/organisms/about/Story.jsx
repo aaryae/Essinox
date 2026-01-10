@@ -4,17 +4,17 @@ const Story = () => {
       <div className='w-full max-w-250 text-center'>
         <h2 className='text-xl md:text-4xl font-medium text-gray-900 mb-4'>Our Story</h2>
         <p className='text-xs md:text-sm text-gray-700 leading-relaxed tracking-wide'>
-          Founded with a vision to make quality eyewear accessible to everyone, Essinox has been serving the community
-          for over a decade. What started as a small optical shop has grown into a destination for those who appreciate
-          the perfect blend of style, comfort, and quality.
+          Founded with a vision to make quality eyewear accessible and stylish, Essinox was created to support modern
+          lifestyles and everyday eye comfort. We understand how much your eyes work each day — from digital screens to
+          daily tasks — and we design lenses that keep up with your life.
         </p>
         <p className='text-xs md:text-sm text-gray-700 mt-3 leading-relaxed tracking-wide'>
-          We believe that eyewear is an extension of your personality. That’s why we curate our collections with care,
-          ensuring every frame meets our high standards for craftsmanship, durability, and design.
+          At Essinox, we combine advanced lens technology with thoughtful design to deliver clarity, comfort, and
+          confidence. Every product is crafted with precision, ensuring reliable performance and long-lasting quality.
         </p>
         <p className='text-xs md:text-sm text-gray-700 mt-3 leading-relaxed tracking-wide'>
-          Our commitment goes beyond design — we’re dedicated to providing expert guidance, personalized service, and
-          ongoing support to ensure your frames not only look great but feel great too.
+          Our journey is driven by trust, innovation, and a commitment to improving how you see the world — clearly and
+          comfortably.
         </p>
       </div>
     </section>
