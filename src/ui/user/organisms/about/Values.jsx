@@ -14,7 +14,7 @@ const Values = () => {
           {values.map((v, i) => (
             <div key={i} className='flex flex-col items-center py-5'>
               <div className='w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden mb-3 shadow-sm'>
-                <img src={image.essinoxGlass} alt={v.title} className='w-full h-full object-cover' />
+                <img src={image[`lens${i + 3}`]} alt={v.title} className='w-full h-full object-cover' loading='lazy' />
               </div>
               <h3 className='text-sm  font-medium text-gray-900 tracking-wide'>{v.title}</h3>
               <p className='text-[10px] md:text-xs text-gray-600 mt-1 max-w-[85%] leading-relaxed'>{v.desc}</p>

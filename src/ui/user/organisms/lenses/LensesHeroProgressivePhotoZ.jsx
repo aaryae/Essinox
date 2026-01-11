@@ -19,14 +19,16 @@ const LensesProgressivePhotoZ = () => {
           {/* Right Images */}
           <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-4 '>
             <img
-              src={image.essinoxGlass}
+              src={image.lens3}
               alt='Progressive lens'
-              className='w-full h-86.25 object-cover rounded-[14px]'
+              className='w-full h-60 object-cover rounded-[14px]'
+              loading='lazy'
             />
             <img
-              src={image.designerCollection3}
+              src={image.lens5}
               alt='Photo-Z lens design'
-              className='w-full h-86.25 object-cover rounded-[14px]'
+              className='w-full h-60 object-cover rounded-[14px]'
+              loading='lazy'
             />
           </div>
         </div>

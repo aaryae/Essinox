@@ -15,37 +15,37 @@ const ChooseUsCards = () => {
         <Card
           title={'Premium Lens Coating'}
           description={'Advanced high-quality coatings designed for modern, fast-paced lifestyles. '}
-          image={image.essinoxGlass}
+          image={image.glass1}
           className='w-[320px]'
         />
         <Card
           title={'Digital Screen Friendly'}
           description={'Specially developed for digital device users to reduce eye strain and blue light exposure.'}
-          image={image.essinoxGlass}
+          image={image.glass2}
           className='w-[320px]'
         />
         <Card
           title={'Enhanced Daily Comfort'}
           description={'Lightweight lenses that provide balanced, comfortable vision for long hours.'}
-          image={image.essinoxGlass}
+          image={image.glass3}
           className='w-[320px]'
         />
         <Card
           title={'Long-Lasting Durability'}
           description={'Scratch-resistant and protective coatings ensure extended lens performance.'}
-          image={image.essinoxGlass}
+          image={image.glass4}
           className='w-[320px]'
         />
         <Card
           title={'Crystal-Clear Vision'}
           description={'Precision optics deliver sharp clarity in all lighting conditions.'}
-          image={image.essinoxGlass}
+          image={image.glass5}
           className='w-[320px]'
         />
         <Card
           title={'UV Protection & Eye Safety'}
           description={'Protects your eyes from harmful UV rays for safe and healthy vision.'}
-          image={image.essinoxGlass}
+          image={image.glass6}
           className='w-[320px]'
         />
       </div>

@@ -19,19 +19,21 @@ const LensesHero = () => {
             src={image.wideDesignerCollection3}
             alt='Essinox Glass'
             className='w-full hidden md:block rounded-[18px]'
+            loading='lazy'
           />
         </div>
 
-        <div className='flex flex-wrap gap-4 mt-2 justify-center'>
+        <div className='flex flex-wrap gap-7 mt-2 justify-center '>
           {/* Image */}
           {/* Bottom Grid */}
           <div className='flex  gap-3 md:gap-4 mt-3 md:mt-5 flex-wrap md:flex-nowrap'>
             {/* Left small image */}
             <div className='w-full flex justify-center'>
               <img
-                src={image.essinoxGlass}
+                src={image.lens2}
                 alt='Essinox Glass small'
                 className='w-full h-86.25 object-cover rounded-[14px]'
+                loading='lazy'
               />
             </div>
 
@@ -41,6 +43,7 @@ const LensesHero = () => {
                 src={image.designerCollection3}
                 alt='Designer Collection'
                 className='w-full h-86.25 object-cover rounded-[14px]'
+                loading='lazy'
               />
             </div>
           </div>

@@ -22,8 +22,8 @@ const FeaturedCollection = () => {
           <div className='flex flex-col justify-center items-center sm:flex-row sm:flex-wrap gap-6 lg:gap-8'>
             <ProductCard image={image.essinoxGlass} title='glasses' />
             <ProductCard image={image.designerCollection} title='Optical Frames' />
-            <ProductCard image={image.designerCollection2} title='Lens Collection' />
-            <ProductCard image={image.designerCollection3} title='Classic Collection' />
+            <ProductCard image={image.designerCollection3} title='Lens Collection' />
+            <ProductCard image={image.glass6} title='Classic Collection' />
           </div>
         </div>
       </div>

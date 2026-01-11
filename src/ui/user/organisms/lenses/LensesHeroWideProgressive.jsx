@@ -6,11 +6,17 @@ const LensesWideProgressive = () => {
       <div className='w-full max-w-350 flex flex-wrap justify-center items-center gap-6 md:gap-12 px-4'>
         {/* Left Images */}
         <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-start gap-4'>
-          <img src={image.essinoxGlass} alt='Wide progressive' className='w-full h-86.25 object-cover rounded-[14px]' />
           <img
-            src={image.designerCollection3}
+            src={image.lens6}
+            alt='Wide progressive'
+            className='w-full h-60 object-cover rounded-[14px]'
+            loading='lazy'
+          />
+          <img
+            src={image.lens7}
             alt='Designer progressive'
-            className='w-full h-86.25 object-cover rounded-[14px]'
+            className='w-full h-60 object-cover rounded-[14px]'
+            loading='lazy'
           />
         </div>
 
