@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Sidebar({ isSidebarOpen, setIsSidebarOpen, activePath }) {
   return (
     <div
-      className={`fixed top-0 right-0 h-full w-72 bg-white z-50 shadow-2xl
+      className={`fixed top-0 right-0 h-full w-60 sm:w-72 bg-white z-50 shadow-2xl
         transform transition-all duration-300 ease-out ${
           isSidebarOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
         }`}
