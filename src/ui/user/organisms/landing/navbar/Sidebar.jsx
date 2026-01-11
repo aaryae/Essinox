@@ -18,7 +18,7 @@ export default function Sidebar({ isSidebarOpen, setIsSidebarOpen, activePath })
         <nav className='space-y-2'>
           {navItems.map(({ label, href }) => {
             const isActive = activePath === href
-            return (
+            return ( 
               <Link
                 key={label}
                 to={href}

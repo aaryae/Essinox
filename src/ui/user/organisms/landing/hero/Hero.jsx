@@ -28,9 +28,7 @@ const Hero = () => {
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="absolute mx-auto px-6 sm:px-12 lg:px-20 w-full">
             <div className="flex flex-col max-w-xl">
-              <p className="text-[0.9rem] sm:text-[0.85rem] md:text-[0.9rem] lg:text-[0.9rem] text-blue-200 mb-4 uppercase tracking-wider">
-                Lorem Ipsum
-              </p>
+             
 
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white mb-4 leading-tight">
                 Stylish & Comfortable <br />
