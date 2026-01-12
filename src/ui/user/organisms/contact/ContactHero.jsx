@@ -3,7 +3,7 @@ import { image } from '@/config/constant/image'
 export const ContactHero = () => {
   return (
     <div className='relative w-full h-80 md:h-96 bg-gray-900 overflow-hidden'>
-      <img src={image.contact} alt='Eyewear' className='w-full h-full object-cover opacity-60' />
+      <video src={image.contact} autoPlay muted loop playsInline className='w-full h-full object-cover opacity-60' />
       {/* Grainy texture overlay */}
       <div
         className='absolute inset-0 opacity-65 pointer-events-none'
