@@ -5,12 +5,13 @@ import ChooseUsCards from '@/ui/user/organisms/landing/chooseUs/ChooseUsCards'
 import ExploreLenses from '@/ui/user/organisms/landing/exploreLenses/ExploreLenses'
 import { FAQSection } from '@/ui/user/organisms/landing/FAQ/FAQSection'
 import FeaturedCollection from '@/ui/user/organisms/landing/featuredCollection/FeaturedCollection'
-import Hero from '@/ui/user/organisms/landing/hero/Hero'
+import Hero1 from '@/ui/user/organisms/landing/hero/Hero1'
 
 const LandingPage = () => {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
+      <Hero1/>
       <ChooseUs />
       <ChooseUsCards />
       <FeaturedCollection />

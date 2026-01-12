@@ -26,6 +26,10 @@ import lens7 from "@assets/image/landing/lens7.jpeg"
 import lens8 from "@assets/image/landing/lens8.jpeg"
 
 
+import hero1 from "@assets/video/hero1.mp4"
+import hero2 from "@assets/video/hero2.mp4"
+
+
 import groupLogo1 from '@assets/image/logo/groupLogo1.png'
 import groupLogo2 from '@assets/image/logo/groupLogo2.png'
 import logo from '@assets/image/logo/mainLogo.png'
@@ -67,6 +71,9 @@ export const image = {
   lens6,
   lens7,
   lens8,
+
+  hero1,
+  hero2,
 
 
   essinoxGlass,

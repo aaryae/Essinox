@@ -19,6 +19,7 @@ const Hero = () => {
           src={image.heroVideo}
           alt="Hero background"
           className="hidden md:hidden lg:block w-full h-[70vh] sm:h-[85vh] object-cover"
+          loading="lazy"
         />
 
         {/* Overlay */}
@@ -57,7 +58,8 @@ const Hero = () => {
           </div>
 
           <div>
-            <img src={image.centerImg} alt="" />
+            <img src={image.centerImg} alt=""
+            loading="lazy" />
           </div>
         </div>
       </div>
@@ -95,25 +97,10 @@ const Hero = () => {
             src={image.responsiveVideo}
             alt=""
             className="w-full h-full object-cover"
+            loading="lazy"
           />
 
-          <div
-            className="absolute top-1/2 left-0 -translate-y-1/2 bg-[#173f6a] flex justify-center items-center"
-            style={{
-              width: "99px",
-              height: "99px",
-              borderTopRightRadius: "150px",
-              borderBottomRightRadius: "150px",
-              left: "-39px",
-            }}
-          >
-            <img
-              src={image.centerImg}
-              alt=""
-              className="w-19"
-              style={{ marginLeft: "5px" }}
-            />
-          </div>
+        
         </div>
       </div>
     </section>
