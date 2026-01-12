@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <section className='flex  max-[1050px]:flex-wrap w-full justify-between bg-[#205187] py-12 px-8 pr-0 md:pr-8  items-center'>
       <div>
-        <div className='flex flex-col max-w-xl py-10 ml-40 max-[1340px]:ml-5  '>
-          <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-[1115px]:text-xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
+        <div className='flex flex-col max-w-xl py-10 ml-40 max-[1340px]:ml-2  '>
+          <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-[1115px]:text-3xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
             Stylish & Comfortable <br />
             <span className='font-medium flex flex-col'>
               EyeWear for <span>Everyone</span>
