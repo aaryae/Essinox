@@ -21,13 +21,13 @@ const LensesProgressivePhotoZ = () => {
             <img
               src={image.lens3}
               alt='Progressive lens'
-              className='w-full h-60 object-cover rounded-[14px]'
+              className='w-86.25  h-86.25  object-cover rounded-[14px]'
               loading='lazy'
             />
             <img
               src={image.lens5}
               alt='Photo-Z lens design'
-              className='w-full h-60 object-cover rounded-[14px]'
+              className='w-86.25  h-86.25  object-cover rounded-[14px]'
               loading='lazy'
             />
           </div>

@@ -9,13 +9,13 @@ const LensesWideProgressive = () => {
           <img
             src={image.lens6}
             alt='Wide progressive'
-            className='w-full h-60 object-cover rounded-[14px]'
+            className='w-86.25  h-86.25  object-cover rounded-[14px]'
             loading='lazy'
           />
           <img
             src={image.lens7}
             alt='Designer progressive'
-            className='w-full h-60 object-cover rounded-[14px]'
+            className='w-86.25  h-86.25  object-cover rounded-[14px]'
             loading='lazy'
           />
         </div>

@@ -28,13 +28,13 @@ const LensesBlueCarePhotoZ = () => {
           <img
             src={image.lens8}
             alt='Photo-Z collection'
-            className='w-full h-60 object-cover rounded-[14px]'
+            className='w-86.25  h-86.25  object-cover rounded-[14px]'
             loading='lazy'
           />
           <img
             src={image.lens1}
             alt='Designer collection'
-            className='w-full h-60 object-cover rounded-[14px]'
+            className='w-86.25  h-86.25 object-cover rounded-[14px]'
             loading='lazy'
           />
         </div>
