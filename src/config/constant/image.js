@@ -44,6 +44,8 @@ import footerGlass from '@assets/image/footer/footerGlass.png'
 import map from '@assets/image/map.png'
 import contact from '@assets/video/contact.mp4'
 
+import fallback from "@assets/image/fallback.png"
+
 export const image = {
   logo,
   groupLogo1,
@@ -88,4 +90,6 @@ export const image = {
 
   contact,
   map,
+
+  fallback
 }
