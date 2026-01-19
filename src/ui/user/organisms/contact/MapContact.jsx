@@ -1,12 +1,25 @@
 import { image } from '@/config/constant/image'
 import { MapPin, Phone, Smartphone } from 'lucide-react'
+import { useState } from 'react'
 
 const MapContact = () => {
+  const [isMapLoaded, setIsMapLoaded] = useState(false)
+
   return (
-    <div className='space-y-10 '>
+    <div className='space-y-10'>
       {/* MAP */}
-      <div className='w-full h-95 rounded-2xl overflow-hidden shadow-md'>
-        <img src={image.map} alt='Map' className='w-full h-full object-cover' />
+      <div className='w-full h-95 rounded-2xl overflow-hidden shadow-md relative'>
+        {!isMapLoaded && (
+          <img src={image.fallback} alt='Loading map...' className='absolute top-0 left-0 w-full h-full object-cover' />
+        )}
+        <img
+          src={image.map}
+          alt='Map'
+          className={`w-full h-full object-cover transition-opacity duration-700 ${
+            isMapLoaded ? 'opacity-100' : 'opacity-0'
+          }`}
+          onLoad={() => setIsMapLoaded(true)}
+        />
       </div>
 
       {/* CONTACT */}

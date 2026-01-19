@@ -1,18 +1,24 @@
 import { image } from '@/config/constant/image'
+import { useState } from 'react'
 
 const LensesBlueCarePhotoZ = () => {
+  // Track loading state for each image
+  const [isLens8Loaded, setIsLens8Loaded] = useState(false)
+  const [isLens1Loaded, setIsLens1Loaded] = useState(false)
+
   return (
-    <section className='w-full bg-white flex  flex-col   justify-center  pt-8 md:pt-14 py-7 max-w-350 mx-auto px-4'>
+    <section className='w-full bg-white flex flex-col justify-center pt-8 md:pt-14 py-7 max-w-350 mx-auto px-4'>
       {/* Top Title */}
-      <div className='text-center mb-8  mx-auto '>
+      <div className='text-center mb-8 mx-auto'>
         <h2 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide w-fit'>
           Essinox Progressive Photo-Z
         </h2>
-        <p className='text-sm text-gray-600 mt-2   text-center'>
+        <p className='text-sm text-gray-600 mt-2 text-center'>
           Combines blue light protection with light-adaptive technology for comfort indoors and protection outdoors.
         </p>
       </div>
-      <div className='w-full max-w-350 mx-auto flex flex-wrap  justify-center items-center gap-6 md:gap-10'>
+
+      <div className='w-full max-w-350 mx-auto flex flex-wrap justify-center items-center gap-6 md:gap-10'>
         {/* Left Text */}
         <div className='max-w-xl'>
           <h2 className='text-lg md:text-2xl font-bold text-gray-900'>Why Bluecare Photo-Z?</h2>
@@ -25,18 +31,41 @@ const LensesBlueCarePhotoZ = () => {
 
         {/* Right Images */}
         <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-4'>
-          <img
-            src={image.lens8}
-            alt='Photo-Z collection'
-            className='w-86.25  h-86.25  object-cover rounded-[14px]'
-            loading='lazy'
-          />
-          <img
-            src={image.lens1}
-            alt='Designer collection'
-            className='w-86.25  h-86.25 object-cover rounded-[14px]'
-            loading='lazy'
-          />
+          {/* Lens 8 */}
+          <div className='relative w-86.25 h-86.25'>
+            {!isLens8Loaded && (
+              <img
+                src={image.skeleton}
+                alt='Loading...'
+                className='absolute top-0 left-0 w-full h-full object-cover rounded-[14px]'
+              />
+            )}
+            <img
+              src={image.lens8}
+              alt='Photo-Z collection'
+              className='w-full h-full object-cover rounded-[14px]'
+              loading='lazy'
+              onLoad={() => setIsLens8Loaded(true)}
+            />
+          </div>
+
+          {/* Lens 1 */}
+          <div className='relative w-86.25 h-86.25'>
+            {!isLens1Loaded && (
+              <img
+                src={image.skeleton}
+                alt='Loading...'
+                className='absolute top-0 left-0 w-full h-full object-cover rounded-[14px]'
+              />
+            )}
+            <img
+              src={image.lens1}
+              alt='Designer collection'
+              className='w-full h-full object-cover rounded-[14px]'
+              loading='lazy'
+              onLoad={() => setIsLens1Loaded(true)}
+            />
+          </div>
         </div>
       </div>
     </section>

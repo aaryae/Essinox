@@ -1,22 +1,33 @@
 import { image } from '@/config/constant/image'
 import { ArrowUpRight } from 'lucide-react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function ExploreLenses() {
+  const [isBgLoaded, setIsBgLoaded] = useState(false)
+
   return (
-    <section className='relative  min-h-130 w-full overflow-hidden'>
+    <section className='relative min-h-130 w-full overflow-hidden'>
+      {/* Fallback Background */}
+      {!isBgLoaded && (
+        <img src={image.fallback} alt='Loading...' className='absolute w-full h-full object-cover scale-x-[-1]' />
+      )}
+
       {/* Background Image */}
       <img
         src={image.styleGlass}
         alt='Stylish eyewear'
-        className='absolute  w-full h-full object-cover scale-x-[-1] '
+        className={`absolute w-full h-full object-cover scale-x-[-1] transition-opacity duration-700 ${
+          isBgLoaded ? 'opacity-100' : 'opacity-0'
+        }`}
+        onLoad={() => setIsBgLoaded(true)}
       />
 
       {/* Dark Overlay */}
-      <div className='absolute inset-0 bg-black/45 ' />
+      <div className='absolute inset-0 bg-black/45' />
 
       {/* Content */}
-      <div className='relative z-10 h-full flex items-center justify-center px-4 my-40 '>
+      <div className='relative z-10 h-full flex items-center justify-center px-4 my-40'>
         <div className='text-center max-w-3xl text-white'>
           {/* Heading */}
           <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight'>
@@ -26,7 +37,7 @@ export default function ExploreLenses() {
           {/* Subtext */}
           <p className='mt-4 text-sm sm:text-base text-white/80 max-w-xl mx-auto'>
             Essinox lenses go through a series of strict quality checks before reaching you — ensuring reliability,
-            durability, and visual excellence.{' '}
+            durability, and visual excellence.
           </p>
 
           {/* Buttons */}

@@ -1,9 +1,6 @@
 import { image } from '@/config/constant/image'
-import { useState } from 'react'
 
 const Hero = () => {
-  const [videoLoaded, setVideoLoaded] = useState(false)
-
   return (
     <section className='w-full bg-[#205187] py-12 px-8 pr-0 md:pr-8'>
       <div className='max-w-8xl mx-auto flex justify-between max-[1120px]:flex-wrap max-[1120px]:justify-end'>
@@ -46,31 +43,9 @@ const Hero = () => {
             <img src={image.centerImg} alt='' loading='lazy' className='p-6 w-full lg:pt-10' style={{ zIndex: 2 }} />
           </div>
 
-          {/* Skeleton loader */}
-          {!videoLoaded && (
-            <div className='w-full h-[500px] bg-gray-400 animate-pulse rounded-xl lg:h-[700px]'></div>
-          )}
-
-          {/* Video */}
-          <video
-            src={image.hero1}
-            autoPlay
-            muted
-            loop
-            playsInline
-            onLoadedData={() => setVideoLoaded(true)}
-            className={`w-full h-auto transition-opacity duration-700 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
-          />
-
-          <video
-            src={image.hero2}
-            autoPlay
-            muted
-            loop
-            playsInline
-            onLoadedData={() => setVideoLoaded(true)}
-            className={`w-full h-auto transition-opacity duration-700 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
-          />
+          {/* Use poster attribute as fallback */}
+          <video src={image.hero1} autoPlay muted loop playsInline poster={image.fallback} className='w-full h-auto' />
+          <video src={image.hero2} autoPlay muted loop playsInline poster={image.fallback} className='w-full h-auto' />
         </div>
       </div>
     </section>
