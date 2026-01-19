@@ -5,9 +5,9 @@ const Hero = () => {
     <section className='flex  max-[1050px]:flex-wrap w-full justify-between bg-[#205187] py-12 px-8 pr-0 md:pr-8  items-center'>
       <div>
         <div className='flex flex-col max-w-xl py-10 ml-40 max-[1340px]:ml-2  '>
-          <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-[1115px]:text-3xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
+          <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-[1115px]:text-3xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2 '>
             Stylish & Comfortable <br />
-            <span className='font-medium flex flex-col'>
+            <span className='font-medium flex flex-col text-xl sm:text-5xl md:text-4xl lg:text-5xl '>
               EyeWear for <span>Everyone</span>
             </span>
           </h1>
@@ -21,13 +21,13 @@ const Hero = () => {
               Explore Now
             </button>
 
-            <button className='px-6 py-3 bg-white text-[#1f5187] rounded-xl flex items-center gap-2'>
+            <button className='px-6 py-3 bg-white text-[#1f5187] rounded-xl flex items-center gap-2 text-[14px] font-semibold'>
               Become an Essinox Dealer <span>→</span>
             </button>
           </div>
         </div>
       </div>
-      <div className='relative flex flex-col flex-nowrap'>
+      <div className='relative flex flex-col flex-nowrap '>
         <div
           className='
       absolute top-1/2 -translate-y-1/2
@@ -38,7 +38,7 @@ const Hero = () => {
       -left-10 lg:-left-30
     '
         >
-          <img src={image.centerImg} alt='' loading='lazy' className='p-6 w-full lg:p-10' />
+          <img src={image.centerImg} alt='' loading='lazy' className='p-6 w-full lg:pt-10' />
         </div>
         <video src={image.hero1} autoPlay muted loop playsInline className='w-full h-auto' />
         <video src={image.hero2} autoPlay muted loop playsInline className='w-full h-auto' />
