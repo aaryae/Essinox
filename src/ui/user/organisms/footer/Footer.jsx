@@ -12,18 +12,17 @@ export default function Footer() {
           <h2 className='text-3xl md:text-4xl font-medium'>Your Vision, Our Expertise </h2>
 
           <p className='mt-4 text-sm text-white/80 max-w-2xl mx-auto leading-relaxed'>
-            We believe eyewear should be as unique as you are. Our team takes the time to understand your daily life and
-            personal taste, guiding you toward the perfect frames. From clinical precision to personal style, we’re here
-            to help you love what you wear.
+            Get high-quality prescription lenses designed for clarity and comfort. Our team ensures every lens perfectly
+            supports your vision and lifestyle.
           </p>
 
-          <a
-            href='/about'
+          <Link
+            to='/about'
             className='inline-block mt-8 bg-white text-[#173f6a]
             px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition'
           >
             Meet Our Team
-          </a>
+          </Link>
         </div>
       </div>
 

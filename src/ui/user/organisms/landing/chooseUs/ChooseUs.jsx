@@ -10,7 +10,8 @@ const ChooseUs = () => {
       <div className='text-center mb-8 sm:mb-12 md:mb-16 '>
         <h1 className='text-2xl sm:text-4xl md:text-4xl font-medium text-gray-900 mb-3 sm:mb-4'>Why Choose Us</h1>
         <p className='text-sm  text-[#8b8b8b] max-w-2xl mx-auto  tracking-[0.012rem] '>
-          We're committed to providing exceptional eyewear and service that exceeds your expectations
+          We’re committed to delivering high-quality optical lenses and reliable solutions that exceed your
+          expectations.{' '}
         </p>
       </div>
 
@@ -41,7 +42,7 @@ const ChooseUs = () => {
               Optical Performance
             </h2>
             <p className='text-[10px] sm:text-xs md:text-sm text-gray-600 leading-relaxed max-w-72'>
-              crafted using advanced technology to deliver distortion-free vision in every condition.
+              Advanced optical technology delivers distortion-free clarity in all conditions.{' '}
             </p>
           </div>
 
@@ -58,7 +59,7 @@ const ChooseUs = () => {
               Perfectly Designed
             </h2>
             <p className='text-[10px] sm:text-xs md:text-sm  text-gray-600 leading-relaxed max-w-40 md:max-w-60'>
-              Essinox lenses ensure superior comfort, reduced eye strain, and long-lasting durability.
+              Designed for comfort, reduced eye strain, and lasting durability.{' '}
             </p>
           </div>
         </div>

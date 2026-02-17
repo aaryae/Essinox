@@ -11,12 +11,10 @@ const LensesHero = () => {
       <div className='w-full max-w-350'>
         {/* Title Block */}
         <div className='text-center pt-6 md:pt-10 pb-5 md:pb-7'>
-          <h1 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide text-center'>
-            Essinox Bluecare
-          </h1>
+          <h1 className='text-xl md:text-4xl font-medium text-gray-900 tracking-wide text-center'>Essinox Bluecare</h1>
           <p className='text-sm text-gray-600 md:mt-2 py-1 md:max-w-[70%] mx-auto'>
-            Designed for digital lifestyles, Bluecare lenses reduce eye strain and provide comfortable, clear vision
-            throughout the day.
+            Designed for modern digital lifestyles, Bluecare lenses reduce eye strain and deliver comfortable, clear
+            vision all day.
           </p>
         </div>
 
@@ -81,9 +79,9 @@ const LensesHero = () => {
             <div className='max-w-2xl pl-0 my-auto'>
               <h2 className='text-lg md:text-2xl font-medium text-gray-900'>Why Bluecare?</h2>
               <p className='text-[11px] md:text-sm text-gray-600 mt-2 md:mt-3 leading-relaxed text-justify md:w-xl'>
-                Prolonged use of digital devices can cause eye fatigue, dryness, and discomfort. Essinox Bluecare lenses
-                feature advanced blue light filtering technology that reduces harmful blue light exposure while preserving
-                natural color perception. Ideal for office work, online learning, and everyday screen use.
+                Prolonged screen use can cause eye fatigue, dryness, and discomfort. Essinox Bluecare lenses feature
+                advanced blue light filtering technology to protect your eyes from harmful blue light while maintaining
+                natural color perception. Perfect for office work, online learning, and everyday digital device use.
               </p>
             </div>
           </div>

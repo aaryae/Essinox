@@ -6,8 +6,8 @@ const BecomeDealer = () => {
       <div className='flex flex-col items-center gap-4'>
         <p>Become an Authoritative Essinox partner</p>
         <p className='text-justify'>
-          Join our growing network of trusted opticians and eyewear professionals. Offer your customers premium-quality
-          Essinox lenses with reliable performance, competitive pricing, and dedicated support.
+          Join our network of trusted opticians and vision professionals. Offer premium-quality Essinox lenses with
+          reliable performance, competitive pricing, and dedicated support.
         </p>
         <Link
           to='/contact'
@@ -21,17 +21,17 @@ const BecomeDealer = () => {
       <div className='flex gap-4 pt-8 flex-wrap items-center justify-center '>
         <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff17] border border-[#ffffffa9] rounded-2xl sm:w-100  text-center '>
           <h1>Premium Lens Portfolio</h1>
-          <p cl>Access a complete range of high-quality optical lenses designed for modern vision needs.</p>
+          <p>A complete range of high-quality lenses for modern vision needs.</p>
         </div>
 
         <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff17] border border-[#ffffffa9] rounded-2xl sm:w-100 text-center'>
           <h1>Competitive Pricing</h1>
-          <p>Enjoy attractive dealer margins with consistent quality and transparent pricing.</p>
+          <p>Attractive dealer margins with consistent quality and transparent pricing.</p>
         </div>
 
         <div className='flex flex-col gap-2 justify-center items-center p-5 bg-[#ffffff17] border border-[#ffffffa9] rounded-2xl sm:w-100 text-center'>
           <h1>Reliable Support & Supply</h1>
-          <p>Benefit from timely delivery, technical assistance, and ongoing partner support.</p>
+          <p>Timely delivery, technical assistance, and ongoing partner support.</p>
         </div>
       </div>
     </section>

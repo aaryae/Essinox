@@ -14,12 +14,12 @@ const FeaturedCollection = () => {
             </h1>
 
             <p className='text-sm text-[#8b8b8b] tracking-[0.012rem]'>
-              Explore Essinox eyewear crafted for style, protection, and comfort.{' '}
+              Essinox lenses for clear vision and reliable eye protection.
             </p>
           </div>
 
           {/* Product Cards */}
-          <div className='flex flex-col justify-center items-center sm:flex-row sm:flex-wrap gap-6 lg:gap-8'>
+          <div className='flex flex-col justify-center items-center sm:flex-row sm:flex-wrap gap-6 lg:gap-8 '>
             <ProductCard image={image.essinoxGlass} title='glasses' />
             <ProductCard image={image.designerCollection} title='Optical Frames' />
             <ProductCard image={image.designerCollection3} title='Lens Collection' />

@@ -36,8 +36,8 @@ export default function ExploreLenses() {
 
           {/* Subtext */}
           <p className='mt-4 text-sm sm:text-base text-white/80 max-w-xl mx-auto'>
-            Essinox lenses go through a series of strict quality checks before reaching you — ensuring reliability,
-            durability, and visual excellence.
+            Essinox lenses go through a series of strict quality checks before reaching you, ensuring clarity,
+            durability, and reliable visual performance.
           </p>
 
           {/* Buttons */}

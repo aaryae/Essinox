@@ -21,7 +21,7 @@ const LensesBanner = () => {
         <div className='relative z-10 flex flex-col items-center justify-center h-full text-center px-4'>
           <p className='text-sm font-bold uppercase tracking-widest text-white opacity-80 mb-6'>About Essinox</p>
           <h1 className='text-2xl md:text-3xl lg:text-4xl font-medium text-white drop-shadow-md'>
-            Your trusted partner in eyewear excellence
+            Your expert partner for precision lenses and better vision
           </h1>
         </div>
       </div>

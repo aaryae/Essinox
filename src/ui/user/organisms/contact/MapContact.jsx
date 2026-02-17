@@ -24,13 +24,13 @@ const MapContact = () => {
 
       {/* CONTACT */}
       <div className='py-3'>
-        <h3 className='text-3xl py-2 font-semibold text-gray-900'>
+        <h3 className='text-3xl py-2 font-semibold text-gray-900    '>
           Contact us <span className='text-[#3271b1]'>Directly</span>
         </h3>
         <p className='text-sm text-gray-500 mt-1'>Call Our Team Sunday - Friday 9am to 5pm</p>
 
         <div className='mt-4 space-y-3 text-sm text-gray-700'>
-          <div className='flex items-center gap-3'>
+          <div className='flex items-center gap-3 '>
             <Phone size={18} style={{ color: '#387bbf' }} />
             <span className='font-medium'>015914844</span>
           </div>

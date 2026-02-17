@@ -12,11 +12,11 @@ const LensesProgressivePhotoZ = () => {
         <div className='flex flex-wrap md:justify-center justify-start gap-6'>
           {/* Left Text */}
           <div className='max-w-xl my-auto'>
-            <h3 className='text-base md:text-xl font-semibold text-gray-900'>Why Progressive Photo-Z?</h3>
+            <h3 className='text-base md:text-xl font-semibold text-gray-900'>Why SUNSYNC?</h3>
             <p className='text-xs md:text-sm text-gray-600 mt-2 leading-relaxed text-justify'>
-              Bluecare Photo-Z lenses transition seamlessly between indoor and outdoor environments. They reduce blue
-              light from digital screens indoors and darken automatically under sunlight, providing UV protection and
-              visual comfort without the need to change glasses.
+              Exposure to bright sunlight can cause glare, eye strain, and UV damage. Essinox SUNSYNC lenses protect
+              your eyes from harmful UV rays, reduce glare, and enhance visual clarity and contrast—perfect for outdoor
+              activities, driving, and everyday use.
             </p>
           </div>
 
