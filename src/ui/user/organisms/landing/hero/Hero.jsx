@@ -7,14 +7,15 @@ const Hero = () => {
         <div className='my-auto max-[1120px]:w-full'>
           <div className='flex flex-col max-w-xl py-10 ml-40 max-[1340px]:ml-2 relative' style={{ zIndex: 1 }}>
             <h1 className='text-6xl max-[1452px]:text-4xl max-[1120px]:w-full max-[1120px]:text-6xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
-              Stylish & Comfortable <br />
               <span className='font-medium flex flex-col text-7xl max-[1452px]:text-6xl'>
-                EyeWear for <span>Everyone</span>
+              Lenses for clearer <br />
+                 and Comfortable Vision
+                <span>Everyone</span>
               </span>
             </h1>
 
             <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] lg:text-[0.9rem] text-blue-100 mb-8 max-[1805px]:w-[60%]'>
-              Discover the perfect frames that complement your unique style and personality
+              Advanced optical solutions built for comfort, clarity, and daily use.
             </p>
 
             <div className='flex flex-wrap gap-5'>
@@ -29,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='relative flex flex-col flex-nowrap'>
+        <div className='relative flex flex-col flex-nowrap gap-4'>
           <div
             className='
               absolute top-1/2 -translate-y-1/2
@@ -44,7 +45,6 @@ const Hero = () => {
           </div>
 
           {/* Use poster attribute as fallback */}
-          {/* Fixed 600x400 videos */}
           <video
             src={image.hero1}
             autoPlay
@@ -52,7 +52,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-[900px] h-[400px] object-cover'
+            className='w-[800px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] h-[400px] object-cover'
           />
 
           <video
@@ -62,7 +62,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-[900px] h-[400px] object-cover'
+            className='w-[800px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] h-[400px] object-cover'
           />
         </div>
       </div>
