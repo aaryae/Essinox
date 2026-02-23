@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import { image } from '@/config/constant/image'
+import { useState } from 'react'
 
 const LensesProgressivePhotoZ = () => {
   const [isLens3Loaded, setIsLens3Loaded] = useState(false)
@@ -32,7 +32,7 @@ const LensesProgressivePhotoZ = () => {
                 />
               )}
               <img
-                src={image.lens3}
+                src={image.lenses3}
                 alt='Progressive lens'
                 className='w-full h-full object-cover rounded-[14px]'
                 loading='lazy'
@@ -50,7 +50,7 @@ const LensesProgressivePhotoZ = () => {
                 />
               )}
               <img
-                src={image.lens5}
+                src={image.lenses5}
                 alt='Photo-Z lens design'
                 className='w-full h-full object-cover rounded-[14px]'
                 loading='lazy'

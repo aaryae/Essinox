@@ -23,7 +23,8 @@ import lens5 from "@assets/image/landing/lens5.jpeg"
 import lens6 from "@assets/image/landing/lens6.jpeg"
 import lens7 from "@assets/image/landing/lens7.jpeg"
 import lens8 from "@assets/image/landing/lens8.jpeg"
-
+import lenses3 from "@assets/image/lenses/lens3.jpeg"
+import lenses5 from "@assets/image/lenses/lens5.png"
 
 import hero1 from "@assets/video/hero1.mp4"
 import hero2 from "@assets/video/hero2.mp4"
@@ -69,6 +70,8 @@ export const image = {
   lens6,
   lens7,
   lens8,
+  lenses3,
+  lenses5,
 
   hero1,
   hero2,
