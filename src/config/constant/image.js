@@ -29,6 +29,11 @@ import lenses5 from "@assets/image/lenses/lens5.png"
 import hero1 from "@assets/video/hero1.mp4"
 import hero2 from "@assets/video/hero2.mp4"
 
+import whySpecial1 from "@assets/image/about/whySpecial1.jpeg"
+import whySpecial2 from "@assets/image/about/whySpecial2.jpeg"
+import whySpecial3 from "@assets/image/about/whySpecial3.jpeg"
+import whySpecial4 from "@assets/image/about/whySpecial4.jpeg"
+
 
 import groupLogo1 from '@assets/image/logo/groupLogo1.png'
 import groupLogo2 from '@assets/image/logo/groupLogo2.png'
@@ -75,6 +80,12 @@ export const image = {
 
   hero1,
   hero2,
+
+  whySpecial1,
+whySpecial2,
+whySpecial3,
+  whySpecial4,
+
 
 
   essinoxGlass,

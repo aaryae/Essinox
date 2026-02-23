@@ -48,22 +48,22 @@ const FramesSpecial = () => {
         {/* Right: Image Grid */}
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
           <img
-            src={image.essinoxGlass}
+            src={image.whySpecial1}
             alt='Colorful eyewear collection'
             className='w-full h-64 object-cover rounded-2xl shadow-md'
           />
           <img
-            src={image.footerGlass}
+            src={image.whySpecial2}
             alt='Reading glasses on document'
             className='w-full h-64 object-cover rounded-2xl shadow-md'
           />
           <img
-            src={image.designerCollection2}
+            src={image.whySpecial3}
             alt='Variety of frames on display'
             className='w-full h-64 object-cover rounded-2xl shadow-md'
           />
           <img
-            src={image.designerCollection3}
+            src={image.whySpecial4}
             alt='Designer eyewear collection'
             className='w-full h-64 object-cover rounded-2xl shadow-md'
           />
