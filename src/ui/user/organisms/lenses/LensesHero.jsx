@@ -28,7 +28,7 @@ const LensesHero = () => {
             />
           )}
           <img
-            src={image.wideDesignerCollection3}
+            src={image.lensesHero}
             alt='Essinox Glass'
             className='w-full hidden md:block rounded-[18px]'
             loading='lazy'
@@ -49,7 +49,7 @@ const LensesHero = () => {
                 />
               )}
               <img
-                src={image.lens2}
+                src={image.lenses1}
                 alt='Essinox Glass small'
                 className='w-86.25 h-86.25 object-cover rounded-[14px]'
                 loading='lazy'
@@ -67,7 +67,7 @@ const LensesHero = () => {
                 />
               )}
               <img
-                src={image.designerCollection3}
+                src={image.lenses2}
                 alt='Designer Collection'
                 className='w-86.25 h-86.25 object-cover rounded-[14px]'
                 loading='lazy'
