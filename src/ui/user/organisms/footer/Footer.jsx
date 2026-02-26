@@ -38,7 +38,7 @@ export default function Footer() {
 
             {/* Description */}
             <p className='text-sm leading-relaxed text-white/80'>
-              Discover frames that perfectly balance your vision needs with your personal style, guided by our expert
+              Discover lensexies that perfectly balance your vision needs with your personal style, guided by our expert
               opticians.
             </p>
 

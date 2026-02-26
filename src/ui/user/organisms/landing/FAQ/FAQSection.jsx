@@ -33,7 +33,7 @@ export function FAQSection() {
       <h2 className='text-center text-3xl font-semibold text-gray-900'>FAQ</h2>
 
       <p className='mt-2 text-center text-gray-500'>
-        We're committed to providing exceptional eyewear and service that exceeds your expectations
+        We're committed to providing exceptional Lenses and service that exceeds your expectations
       </p>
 
       <div className='mt-8 space-y-4'>

@@ -17,7 +17,7 @@ const router = createBrowserRouter([
       { path: '/lenses', element: <LensesPage /> },
       { path: '/about', element: <AboutPage /> },
       { path: '/contact', element: <ContactPage /> },
-      { path: '/terms-and-condition', element:<TermsAndConditions/> },
+      { path: '/terms-and-condition', element: <TermsAndConditions /> },
     ],
   },
 ])
@@ -27,11 +27,9 @@ function App() {
     <>
       <RouterProvider router={router} />
 
-      <Toaster position='bottom-right' reverseOrder={false}  />
-     
+      <Toaster position='bottom-right' reverseOrder={false} />
     </>
   )
 }
-
 
 export default App

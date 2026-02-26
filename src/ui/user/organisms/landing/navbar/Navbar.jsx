@@ -11,10 +11,8 @@ export default function Navbar() {
 
   useEffect(() => {
     setIsSidebarOpen(false)
-        window.scrollTo(0, 0)  
+    window.scrollTo(0, 0)
   }, [pathname])
-
-  
 
   return (
     <>

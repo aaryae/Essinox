@@ -1,8 +1,8 @@
 import emailjs from 'emailjs-com'
 import { Mail, MessageSquare, Phone, User } from 'lucide-react'
 import { useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
 import toast from 'react-hot-toast'
+import { Link } from 'react-router-dom'
 
 const SERVICE_ID = 'service_ftl0n4a'
 const TEMPLATE_ID = 'template_ls2c4gb'
@@ -131,7 +131,7 @@ const ContactForm = () => {
       <button
         type='submit'
         disabled={loading}
-        className='px-8 py-3 border border-[#173f6a] text-[#173f6a] rounded-lg hover:bg-[#173f6a] hover:text-white transition disabled:opacity-50'
+        className='px-8 py-3 border border-[#173f6a] text-[#173f6a] rounded-lg hover:bg-[#173f6a] hover:text-white transition-colors delay-100 cursor-pointer disabled:opacity-50'
       >
         {loading ? 'Sending...' : 'Submit'}
       </button>

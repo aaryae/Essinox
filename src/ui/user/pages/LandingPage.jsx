@@ -11,7 +11,7 @@ const LandingPage = () => {
   return (
     <>
       {/* <Hero /> */}
-      <Hero1/>
+      <Hero1 />
       <ChooseUs />
       <ChooseUsCards />
       <FeaturedCollection />

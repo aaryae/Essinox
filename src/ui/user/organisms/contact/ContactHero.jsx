@@ -14,7 +14,7 @@ export const ContactHero = () => {
       />
       <div className='absolute inset-0 flex flex-col items-center justify-center text-white px-4'>
         <p className='text-sm uppercase tracking-wider mb-2'>ABOUT ESSINOX</p>
-        <h1 className='text-3xl md:text-4xl font-bold text-center'>Your trusted partner in eyewear excellence</h1>
+        <h1 className='text-3xl md:text-4xl font-bold text-center'>"Your trusted partner in eyewear excellence"</h1>
       </div>
     </div>
   )
