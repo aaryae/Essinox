@@ -3,10 +3,10 @@ import { image } from '@/config/constant/image'
 import { ProductCard } from '@/ui/user/organisms/landing/featuredCollection/ProductCard'
 
 const products = [
-  { image: image.essinoxGlass, title: 'Vision Lenses' },
-  { image: image.designerCollection, title: 'Digital Protection Lenses' },
-  { image: image.designerCollection3, title: 'Signature Lens Series' },
-  { image: image.glass6, title: 'Classic Collection' },
+  { image: image.whySpecial1, title: 'Vision Lenses' },
+  { image: image.whySpecial2, title: 'Digital Protection Lenses' },
+  { image: image.whySpecial3, title: 'Signature Lens Series' },
+  { image: image.whySpecial4, title: 'Classic Collection' },
 ]
 
 const FeaturedCollection = () => {
