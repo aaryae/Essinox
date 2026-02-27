@@ -74,7 +74,7 @@ const ChooseUsCards = () => {
       >
         <h1 className='text-2xl sm:text-4xl md:text-4xl font-medium text-gray-900 mb-3 sm:mb-4'>Why Choose Us</h1>
         <p className='text-sm text-[#8b8b8b] max-w-2xl mx-auto tracking-[0.012rem]'>
-          We're committed to providing exceptional eyewear and service that exceeds your expectations
+          We're committed to providing exceptional lenses and service that exceeds your expectations
         </p>
       </div>
 

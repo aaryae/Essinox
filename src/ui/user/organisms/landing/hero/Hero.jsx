@@ -7,11 +7,11 @@ const Hero = () => {
   return (
     <section className='w-full bg-[#205187] py-12 px-8 pr-0 md:pr-8'>
       <div className='max-w-445.5 mx-auto flex justify-between max-[1120px]:flex-wrap max-[1120px]:justify-end'>
-        <div className='my-auto max-[1120px]:w-full ml-20'>
+        <div className='my-auto max-[1120px]:w-full min-[1025px]:ml-10'>
           <div className='flex flex-col max-w-xl py-10  max-[1340px]:ml-2 relative' style={{ zIndex: 1 }}>
             <h1 className='text-4xl max-[1452px]:text-4xl max-[1120px]:w-full max-[1120px]:text-6xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
               <span className='font-medium flex flex-col text-6xl max-[1452px]:text-5xl'>
-                Lenses for clearer <br />
+                Lenses for Clearer <br />
                 and Comfortable Vision
               </span>
             </h1>
