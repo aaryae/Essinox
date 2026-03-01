@@ -31,7 +31,7 @@ export default function Navbar() {
                 <Link
                   key={label}
                   to={href}
-                  className={`font-medium transition-colors ${
+                  className={`font-medium text-[19px] transition-colors ${
                     isActive ? 'text-[#3271B1]' : 'text-gray-700 hover:text-blue-900'
                   }`}
                 >
@@ -42,7 +42,7 @@ export default function Navbar() {
           </div>
 
           <div className='hidden md:flex'>
-            <Link to='/contact' className='flex items-center gap-2 font-medium text-gray-700 hover:text-blue-900 group'>
+            <Link to='/contact' className='flex items-center gap-2 text-[18px] font-medium text-gray-700 hover:text-blue-900 group'>
               Become an Essinox Dealer
               <ArrowUpRightIcon className='w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform' />
             </Link>

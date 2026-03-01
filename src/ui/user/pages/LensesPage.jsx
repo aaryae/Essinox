@@ -9,6 +9,7 @@ const LensesPage = () => {
       <LensesHero />
 
       {/* Gradient background div */}
+      <h2 className='text-lg md:text-2xl font-medium text-gray-900 w-fit mx-auto'>Why Bluecare?</h2>
       <div className='bg-[linear-gradient(to_bottom,#f4f6f9,white)]'>
         <img src={image.sun} alt='sun' loading='lazy' className='mx-auto' />
       </div>
