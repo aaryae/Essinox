@@ -9,9 +9,14 @@ const LensesPage = () => {
       <LensesHero />
 
       {/* Gradient background div */}
-      <h2 className='text-lg md:text-2xl font-medium text-gray-900 w-fit mx-auto'>Why Bluecare?</h2>
       <div className='bg-[linear-gradient(to_bottom,#f4f6f9,white)]'>
-        <img src={image.sun} alt='sun' loading='lazy' className='mx-auto' />
+        <h2 className='text-lg md:text-2xl font-medium text-gray-900 w-fit mx-auto'> Essinox SUNSYNC</h2>
+
+        <p className='text-xs md:text-sm text-gray-600 mt-2 leading-relaxed text-justify w-fit mx-auto '>
+          SUNSYNC lenses adapt to light, darkening in sunlight and clearing indoors for comfortable, optimal vision.
+        </p>
+
+        <img src={image.sun} alt='sun' loading='lazy' className='mx-auto py-10' />
       </div>
 
       <LensesProgressivePhotoZ />
