@@ -9,7 +9,7 @@ const LensesPage = () => {
       <LensesHero />
 
       {/* Gradient background div */}
-      <div className='bg-[linear-gradient(to_bottom,#f4f6f9,white)]'>
+      <div className='bg-[linear-gradient(to_bottom,#f4f6f9,white)] px-4'>
         <h2 className='text-lg md:text-2xl font-medium text-gray-900 w-fit mx-auto'> Essinox SUNSYNC</h2>
 
         <p className='text-xs md:text-sm text-gray-600 mt-2 leading-relaxed text-justify w-fit mx-auto '>
