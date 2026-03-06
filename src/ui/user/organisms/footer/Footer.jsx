@@ -102,7 +102,7 @@ export default function Footer() {
 
               <div className='flex gap-4'>
                 <Link
-                  to=' https://www.facebook.com/people/Essinox/61583761424872/'
+                  to='https://www.facebook.com/share/1BsMBzyvXm/'
                   className='group flex h-10 w-10 items-center justify-center rounded-full bg-white/10
     hover:bg-white hover:text-[#173f6a] transition-all duration-300'
                   aria-label='Facebook'

@@ -8,11 +8,13 @@ const Hero = () => {
     <section className='w-full bg-[#205187] py-11 px-8 pr-0 md:pr-8'>
       <div className='max-w-[2200px] mx-auto flex justify-between max-[1120px]:flex-wrap max-[1120px]:justify-end'>
         <div className='my-auto max-[1120px]:w-full min-[1025px]:ml-10'>
-          <div className='flex flex-col max-w-xl py-10  max-[1340px]:ml-2 relative  ml-[204px] max-[1700px]:ml-0 ' style={{ zIndex: 1 }}>
+          <div
+            className='flex flex-col max-w-xl py-10  max-[1340px]:ml-2 relative  ml-[204px] max-[1700px]:ml-0 '
+            style={{ zIndex: 1 }}
+          >
             <h1 className='text-4xl max-[1452px]:text-4xl max-[1120px]:w-full max-[1120px]:text-6xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
               <span className='font-medium flex flex-col text-6xl max-[1452px]:text-5xl'>
-                Lenses for Clearer <br />
-                and Comfortable Vision
+                Lenses for Clearer <br />& Comfortable Vision
               </span>
             </h1>
 
@@ -71,7 +73,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-[900px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] h-[350px] object-cover'
+            className='w-[900px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] max-[1472px]:w-[700px] h-[350px] object-cover'
           />
 
           <video
@@ -81,7 +83,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-[900px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] h-[350px] object-cover'
+            className='w-[900px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] max-[1472px]:w-[700px] h-[350px] object-cover'
           />
         </div>
       </div>
