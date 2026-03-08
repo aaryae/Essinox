@@ -5,7 +5,7 @@ const Hero = () => {
   const navigate = useNavigate()
 
   return (
-    <section className='w-full bg-[#205187] py-11 px-8 pr-0 md:pr-8'>
+    <section className='w-full bg-[#205187] py-11 px-8 pr-8'>
       <div className='max-w-[2200px] mx-auto flex justify-between max-[1120px]:flex-wrap max-[1120px]:justify-end'>
         <div className='my-auto max-[1120px]:w-full min-[1025px]:ml-10'>
           <div
@@ -18,7 +18,7 @@ const Hero = () => {
               </span>
             </h1>
 
-            <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] lg:text-[0.9rem] text-blue-100 mb-4 max-[1805px]:w-[60%]'>
+            <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] lg:text-[0.9rem] text-blue-100 mb-4 max-[768px]:w-full max-[1805px]:w-[60%]'>
               Advanced optical solutions built for comfort, clarity, and daily use.
             </p>
 
@@ -73,7 +73,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-[900px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] max-[1472px]:w-[700px] h-[350px] object-cover'
+            className='w-full max-w-[900px] aspect-[900/350] object-cover'
           />
 
           <video
@@ -83,7 +83,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-[900px] max-[1113px]:w-[600px] max-[1113px]:h-[200px] max-[1472px]:w-[700px] h-[350px] object-cover'
+            className='w-full max-w-[900px] aspect-[900/350] object-cover'
           />
         </div>
       </div>
