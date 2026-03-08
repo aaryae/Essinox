@@ -57,7 +57,7 @@ const LensesProgressivePhotoZ = () => {
             {/* Lens 3 */}
             <div
               ref={img3Ref}
-              className='relative w-86.25 h-86.25'
+              className='relative w-full max-w-[345px] aspect-square'
               style={{
                 opacity: 0,
                 transform: 'translateY(32px) scale(0.97)',
@@ -69,9 +69,10 @@ const LensesProgressivePhotoZ = () => {
                 <img
                   src={image.fallback}
                   alt='Loading...'
-                  className='absolute top-0 left-0 w-full h-full object-cover rounded-[14px]'
+                  className='absolute inset-0 w-full h-full object-cover rounded-[14px]'
                 />
               )}
+
               <img
                 src={image.lenses3}
                 alt='Progressive lens'
@@ -84,7 +85,7 @@ const LensesProgressivePhotoZ = () => {
             {/* Lens 5 */}
             <div
               ref={img5Ref}
-              className='relative w-86.25 h-86.25'
+              className='relative w-full max-w-[345px] aspect-square'
               style={{
                 opacity: 0,
                 transform: 'translateY(32px) scale(0.97)',
@@ -96,9 +97,10 @@ const LensesProgressivePhotoZ = () => {
                 <img
                   src={image.fallback}
                   alt='Loading...'
-                  className='absolute top-0 left-0 w-full h-full object-cover rounded-[14px]'
+                  className='absolute inset-0 w-full h-full object-cover rounded-[14px]'
                 />
               )}
+
               <img
                 src={image.lenses5}
                 alt='Photo-Z lens design'
