@@ -9,12 +9,13 @@ const Hero = () => {
       <div className='max-w-[2200px] mx-auto flex justify-between max-[1120px]:flex-wrap max-[1120px]:justify-end'>
         <div className='my-auto max-[1120px]:w-full min-[1025px]:ml-10'>
           <div
-            className='flex flex-col max-w-xl py-10  max-[1340px]:ml-2 relative  ml-[204px] max-[1700px]:ml-0 '
+            className='flex flex-col max-w-xl py-10 max-[768px]:pt-0  max-[1340px]:ml-2 relative  ml-[204px] max-[1700px]:ml-0 '
             style={{ zIndex: 1 }}
           >
-            <h1 className='text-4xl max-[1452px]:text-4xl max-[1120px]:w-full max-[1120px]:text-6xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
-              <span className='font-medium flex flex-col text-6xl max-[1452px]:text-5xl'>
-                Lenses for Clearer <br />& Comfortable Vision
+            <h1 className='text-xl md:text-4xl max-[1452px]:text-4xl max-[1120px]:w-full max-[1120px]:text-6xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
+              <span className='font-medium flex flex-col text-xl md:text-6xl max-[1452px]:text-5xl'>
+                Lenses for Clearer
+                <br className='hidden md:block' /> & Comfortable Vision
               </span>
             </h1>
 

@@ -58,7 +58,7 @@ const LazyImage = ({ src, alt, className }) => {
 
 const LensesHero = () => {
   return (
-    <section className='w-full bg-[#f4f6f9] flex justify-center py-5 px-4 pb-20'>
+    <section className='w-full bg-[#f4f6f9] flex justify-center py-5 px-6  md:pb-20'>
       <div className='w-full max-w-[1400px]'>
         {/* Title */}
         <Reveal>
