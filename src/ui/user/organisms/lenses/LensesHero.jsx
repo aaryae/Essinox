@@ -51,7 +51,7 @@ const LazyImage = ({ src, alt, className }) => {
         />
       )}
 
-      <img src={src} alt={alt} loading='lazy' className={className} onLoad={() => setLoaded(true)} />
+      <img src={src} alt={alt} className={className} onLoad={() => setLoaded(true)} />
     </div>
   )
 }
@@ -102,7 +102,7 @@ const LensesHero = () => {
             {/* Text */}
             <Reveal delay={340}>
               <div className='max-w-2xl my-auto'>
-                <h2 className='text-lg md:text-2xl font-medium text-gray-900'>Why Bluecare?</h2>
+                <h2 className='text-lg md:text-2xl font-medium text-gray-900 text-center'>Why Bluecare?</h2>
 
                 <p className='text-[11px] md:text-sm text-gray-600 mt-2 md:mt-3 leading-relaxed text-justify md:w-xl'>
                   Prolonged screen use can cause eye fatigue, dryness, and discomfort. Essinox Bluecare lenses feature

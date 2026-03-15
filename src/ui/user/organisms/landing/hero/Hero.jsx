@@ -5,21 +5,18 @@ const Hero = () => {
   const navigate = useNavigate()
 
   return (
-    <section className='w-full bg-[#205187] py-11 px-8 pr-8'>
-      <div className='max-w-[2200px] mx-auto flex justify-between max-[1120px]:flex-wrap max-[1120px]:justify-end'>
-        <div className='my-auto max-[1120px]:w-full min-[1025px]:ml-10'>
-          <div
-            className='flex flex-col max-w-xl py-10 max-[768px]:pt-0  max-[1340px]:ml-2 relative  ml-[204px] max-[1700px]:ml-0 '
-            style={{ zIndex: 1 }}
-          >
-            <h1 className='text-xl md:text-4xl max-[1452px]:text-4xl max-[1120px]:w-full max-[1120px]:text-6xl font-light text-white mb-4 leading-tight max-[1805px]:w-1/2'>
-              <span className='font-medium flex flex-col text-xl md:text-6xl max-[1452px]:text-5xl'>
+    <section className='w-full bg-[#205187] py-11 px-8 pr-8 '>
+      <div className='max-w-[1340px] mx-auto flex justify-between max-[768px]:flex-wrap '>
+        <div className='my-auto  '>
+          <div className='flex flex-col max-w-xl py-10 max-[768px]:pt-0   relative   ' style={{ zIndex: 1 }}>
+            <h1 className='    font-light text-white mb-4 leading-tight  w-[97%]'>
+              <span className='font-medium flex flex-col max-[944px]:text-4xl max-[1210px]:text-5xl  text-6xl '>
                 Lenses for Clearer
                 <br className='hidden md:block' /> & Comfortable Vision
               </span>
             </h1>
 
-            <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] lg:text-[0.9rem] text-blue-100 mb-4 max-[768px]:w-full max-[1805px]:w-[60%]'>
+            <p className='text-[0.85rem] sm:text-[0.9rem] md:text-[0.95rem] lg:text-[0.9rem] text-blue-100 mb-4 max-[768px]:w-full max-[1210px]:w-[75%] '>
               Advanced optical solutions built for comfort, clarity, and daily use.
             </p>
 
@@ -74,7 +71,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-full max-w-[900px] aspect-[900/350] object-cover'
+            className='w-full max-w-[750px] max-[1210px]:max-w-[600px] max-[1025px]:max-w-[500px]  max-[769px]:max-w-full aspect-[700/300]  object-cover'
           />
 
           <video
@@ -84,7 +81,7 @@ const Hero = () => {
             loop
             playsInline
             poster={image.fallback}
-            className='w-full max-w-[900px] aspect-[900/350] object-cover'
+            className='w-full max-w-[750px] max-[1210px]:max-w-[600px] max-[1025px]:max-w-[500px] max-[769px]:max-w-full aspect-[700/300] object-cover'
           />
         </div>
       </div>

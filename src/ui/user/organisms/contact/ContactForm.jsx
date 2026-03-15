@@ -50,7 +50,7 @@ const ContactForm = () => {
       {/* Name */}
       <div>
         <label className='flex items-center gap-2 text-sm font-medium'>
-          <User size={16} color='#173f6a' /> Full Name *
+          <User size={16} color='#173f6a' /> Full Name*
         </label>
         <input
           name='from_name'
@@ -62,7 +62,7 @@ const ContactForm = () => {
       {/* Phone */}
       <div>
         <label className='flex items-center gap-2 text-sm font-medium'>
-          <Phone size={16} color='#173f6a' /> Phone *
+          <Phone size={16} color='#173f6a' /> Phone*
         </label>
         <input
           name='phone'
@@ -74,7 +74,7 @@ const ContactForm = () => {
       {/* Email */}
       <div>
         <label className='flex items-center gap-2 text-sm font-medium'>
-          <Mail size={16} color='#173f6a' /> Email *
+          <Mail size={16} color='#173f6a' /> Email*
         </label>
         <input
           name='from_email'
@@ -87,7 +87,7 @@ const ContactForm = () => {
       {/* Message */}
       <div>
         <label className='flex items-center gap-2 text-sm font-medium'>
-          <MessageSquare size={16} color='#173f6a' /> Inquiry *
+          <MessageSquare size={16} color='#173f6a' /> Inquiry*
         </label>
         <textarea
           name='message'
@@ -98,7 +98,7 @@ const ContactForm = () => {
       </div>
 
       {/* Services */}
-      <div className='space-y-3'>
+      <div className='flex flex-col gap-3'>
         {['General Inquiry', 'Dealership Request'].map((s) => (
           <label key={s} className='flex gap-3 text-sm'>
             <input
